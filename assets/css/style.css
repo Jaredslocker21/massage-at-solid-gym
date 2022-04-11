@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Josefin+Sans&display=swap');
 
 *{
     margin: 0;
@@ -6,12 +6,59 @@
     border: none;
 
 }
-body {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
+
+a {
+    text-decoration: none;
 }
 
-#hero-image{
-    background-image: url('../images/psychology-sports-performance.jpg');
-    
+a:hover {
+    border-bottom:2px solid black;
+} 
+
+body {
+    font-family: Cardo, sans-serif;
+    font-weight: 400;
+    color: #3a3a3a
 }
+
+/*heading and logo*/
+
+h1,h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #2b2a2a;
+}
+
+#logo{
+    text-align: center;
+    font-size: 300%;
+}
+
+header{
+    background-color: #039be5;
+}
+
+.active{
+    border-bottom: 2px solid black;
+}
+/*Navigation Menu*/
+ #nav {
+     font-size: x-large;
+     letter-spacing: 4px;
+     margin: 5px auto;
+     text-align: center;
+    }
+
+#nav li {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+
+}
+
+
+
+/* Hero Image */
+

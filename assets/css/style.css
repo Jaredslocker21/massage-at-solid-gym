@@ -94,9 +94,10 @@ hr {
 /*treatment section*/
 
 #treatments {
-    height: 600px;
+    height: 400px;
     width: 100%;
     margin-top: 30px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -107,8 +108,8 @@ hr {
 
     padding-top: 30px;
     width: 33%;
-    background: url('../images/275px.jpeg') no-repeat center bottom;
-    border-right: solid 1px;
+ 
+   
     
 
 }
@@ -117,7 +118,7 @@ hr {
 
     padding-top: 30px;
     width: 33%;
-    background: url('../images/275pxlowbackpain.jpeg') no-repeat center bottom;
+    
     
 
 
@@ -126,14 +127,22 @@ hr {
 #treatments-right {
     padding-top: 30px;
     width: 33%;
-    background: url('../images/275pxneckpain.jpeg') no-repeat center bottom;
-    border-left: solid 1px;
+
+    
     
 }
 
 li {
     text-align: left;
 
+}
+
+.treatment-images {
+    background-color: white;
+    margin: 0;
+    position: relative;
+    
+    
 }
 
 /*footer*/

@@ -23,6 +23,12 @@ body {
 
 /*heading and logo*/
 
+header{
+    height:200px;
+    width: 100%;
+  
+}
+
 h1,
 h2 {
     font-family: 'Josefin Sans', sans-serif;
@@ -36,11 +42,7 @@ h2 {
     font-size: 300%;
 }
 
-/*
-header{
-    background-color: #039be5;
-}
-*/
+
 .active {
     border-bottom: 2px solid #1a237e;
 }
@@ -93,30 +95,44 @@ hr {
 
 #treatments {
     height: 600px;
+    width: 100%;
     margin-top: 30px;
     display: flex;
     flex-direction: row;
+    text-align: center;
+    
 }
 
 #treatments-left {
-    
+
     padding-top: 30px;
     width: 33%;
+    background: url('../images/275px.jpeg') no-repeat center bottom;
+    border-right: solid 1px;
     
+
+}
+
+#treatments-center {
+
+    padding-top: 30px;
+    width: 33%;
+    background: url('../images/275pxlowbackpain.jpeg') no-repeat center bottom;
+    
+
+
 }
 
 #treatments-right {
-    
     padding-top: 30px;
     width: 33%;
+    background: url('../images/275pxneckpain.jpeg') no-repeat center bottom;
+    border-left: solid 1px;
     
 }
 
-#treatment-center {
-    
-    padding-top: 30px;
-    width: 33%;
-    
+li {
+    text-align: left;
 
 }
 

@@ -78,6 +78,7 @@ h2 {
 
 #massage-therapy {
     margin-top: 40px;
+    margin-bottom: 30px;
     height: auto;
     width: 100%;
     font-size: x-large;
@@ -91,6 +92,14 @@ hr {
 
 }
 
+.divider-image {
+    
+    width:100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 /*treatment section*/
 
 #treatments {
@@ -139,8 +148,9 @@ li {
 
 .treatment-images {
     background-color: white;
-    margin: 0;
-    position: relative;
+    margin-top: 20px;
+    padding: 0;
+    position: center;
     
     
 }

@@ -105,17 +105,17 @@ hr {
 #treatments {
     height: 400px;
     width: 100%;
-    margin-top: 30px;
-    margin-bottom: 30px;
     display: flex;
     flex-direction: row;
     text-align: center;
-    
+    padding-bottom: 60px;
+    padding-top: 40px;
 }
 
 #treatments-left {
 
     padding-top: 30px;
+    padding-left: 25px;
     width: 33%;
  
    
@@ -148,11 +148,9 @@ li {
 
 .treatment-images {
     background-color: white;
-    margin-top: 20px;
+    padding-top: 0;
     padding: 0;
     position: center;
-    
-    
 }
 
 /*footer*/

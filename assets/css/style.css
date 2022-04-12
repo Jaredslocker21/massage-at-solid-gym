@@ -70,12 +70,58 @@ header{
     width: 100%;
     background-color: whitesmoke;
     background: url('../images/psychology-sports-performance.jpg') no-repeat center center;
+
+    position: relative;
 }
 
 #massage-therapy {
     margin-top: 40px;
+    height: auto;
+    width: 100%;
     font-size: x-large;
     text-align: center;
+}
 
+hr {
+    border-top: 2px solid;
+    width: 70%;
+    margin: auto;
 
+}
+
+/*treatment section*/
+
+#treatments {
+    height: 600px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#treatments-left {
+    
+    padding-top: 30px;
+    width: 33%;
+    
+}
+
+#treatments-right {
+    
+    padding-top: 30px;
+    width: 33%;
+    
+}
+
+#treatment-center {
+    
+    padding-top: 30px;
+    width: 33%;
+    
+
+}
+
+/*footer*/
+footer {
+    height: 100px;
+    background-color: rgb(55, 50, 129);
 }

@@ -66,11 +66,17 @@ h2 {
 
 
 /* Hero Image */
+#hero-outer{
+    height: 780px;
+    width: 100%;
+    overflow: hidden;
+
+}
 
 #hero-image {
     height: 780px;
     width: 100%;
-    background-color: whitesmoke;
+    
     background: url('../images/psychology-sports-performance.jpg') no-repeat center center;
 
     position: relative;
@@ -92,14 +98,39 @@ hr {
 
 }
 
+/*divider image*/
 .divider-image {
     
     width:100%;
     position: relative;
     margin-left: auto;
     margin-right: auto;
+
+}
+ 
+#cover-text, #cover-text h2 {
+    color: black;
+    
+
+}
+
+#cover-text{
+    height: 200px;
+    width: 320px;
+    font-size: 130%;
+    font-family: 'Josefin Sans',sans-serif;
+    text-align: center;
+    background-color: rgba(83, 75, 174, .7);
+    
+    padding-top: 30px;
+    
+    
+    position: absolute;
+
+
     
 }
+
 /*treatment section*/
 
 #treatments {

@@ -210,4 +210,68 @@ footer {
     font-size: 300%;
     color: white;
     margin: 2%;
+
+}
+
+/* Sign-Up here Form */
+
+#form-container {
+    height:700px;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    border: solid 1px #3a3a3a;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: lightgrey;
+    
+    
+    
+}
+
+.contact-form {
+    margin-top: 20px;
+    margin-left: 5px;
+    
+    
+
+}
+
+.contact-form h2 {
+    font-family: 'Josefin Sans' sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.contact-form p{
+    font-family: Cardo, sans-serif;
+    font-size: 130%;
+}
+
+
+.input-field{
+    width: 98%;
+    height: 30px;
+    border: 1px solid black;
+    color: black;
+    font-size: medium;
+    
+}
+
+.input-field:hover {
+   background-color: #534bae;
+}
+
+.input-field:active {
+    background-color:  #534bae;
+    color: #fff;
+}
+
+#additional-information {
+    width: 98%;
+    height: 300px;
+    color: #fff;
+    font-size: x-large;
+
 }

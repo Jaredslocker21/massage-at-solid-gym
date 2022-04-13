@@ -9,6 +9,7 @@
 
 a {
     text-decoration: none;
+    color: #2b2a2a;
 }
 
 a:hover {
@@ -287,7 +288,7 @@ form {
     
     height:720px;
     width: 500px;
-    margin-right: 30%;
+    margin-right: 20%;
     border-radius: 10px;
     border: solid 1px #3a3a3a;
     margin-top: 20px;
@@ -296,9 +297,13 @@ form {
 
 }
 
+.call-us {
+    padding: 5px;
+}
+
 .call-us h2 {
     margin-top: 20px;
-    margin-left: 5px;
+    margin-left: 10px;
     text-align: center;
     text-decoration: underline;
     font-size: xx-large;
@@ -309,6 +314,7 @@ form {
     background: none !important;
     height: 250px;
     width: 500px;
+    padding-left: 25px;
     
 }
 

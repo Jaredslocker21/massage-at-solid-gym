@@ -223,109 +223,96 @@ form {
 }
 
 #form-container {
-    height:720px;
-    width: 500px;
-    margin-right: 1%;
-    margin-left: auto;
+    height: 1200px;
+    width: 800px;
+    margin: auto;
     border-radius: 10px;
     border: solid 1px #3a3a3a;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: lightgrey;
-    
-    
-    
+
+
+
 }
 
 .contact-form {
     margin-top: 20px;
     margin-left: 5px;
-    
-    
+
+
 
 }
 
 .contact-form h2 {
-    font-family: 'Josefin Sans' sans-serif;
+    font-family: 'Josefin Sans'sans-serif;
     text-decoration: underline;
     text-align: center;
     font-size: xx-large;
 }
 
-.contact-form p{
+.contact-form p {
     font-family: Cardo, sans-serif;
     font-size: 130%;
 }
 
 
-.input-field{
+.input-field {
     width: 98%;
     height: 30px;
     border: 1px solid black;
     color: black;
     font-size: medium;
-    
+
 }
 
 .input-field:hover {
-   background-color: #534bae;
+    background-color: #534bae;
 }
 
 .input-field:active {
-    background-color:  #534bae;
-    color: #fff;
+    background-color: #534bae;
+    color: black;
 }
 
 #additional-information {
     width: 98%;
     height: 300px;
-    color: #fff;
+    color: black;
     font-size: x-large;
 
 }
 
-#contact-div{
-    
-    height:720px;
-    width: 500px;
-    margin-right: 20%;
-    border-radius: 10px;
-    border: solid 1px #3a3a3a;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: lightgrey;
-
+#additional-information:active{
+    color:black
 }
 
-.call-us {
-    padding: 5px;
-}
-
-.call-us h2 {
-    margin-top: 20px;
-    margin-left: 10px;
+input[type=submit] {
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: #534bae;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 40px;
     text-align: center;
-    text-decoration: underline;
-    font-size: xx-large;
-}
-
-.gmap_canvas {
+    position: relative;
     overflow: hidden;
-    background: none !important;
-    height: 250px;
-    width: 500px;
-    padding-left: 25px;
-    
+    cursor: pointer;
 }
 
 .mapouter {
     position: relative;
     text-align: center;
-    height: 250px;
-    width: 500px;
+    height: 150px;
+    width: 100%;
 }
-.inline-block {
-    display: flex;
-    flex-direction: row;
-    margin: 1%;
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 150px;
+    width: 100%;
+    text-align: center;
 }

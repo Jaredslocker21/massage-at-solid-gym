@@ -245,7 +245,7 @@ form {
 }
 
 .contact-form h2 {
-    font-family: 'Josefin Sans'sans-serif;
+    font-family: 'Josefin Sans',sans-serif;
     text-decoration: underline;
     text-align: center;
     font-size: xx-large;
@@ -307,6 +307,11 @@ input[type=submit] {
     text-align: center;
     height: 150px;
     width: 100%;
+}
+
+#gmap{
+    width: 600px; 
+    height: 150px; 
 }
 
 .gmap_canvas {

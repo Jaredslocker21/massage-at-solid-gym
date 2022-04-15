@@ -321,3 +321,42 @@ input[type=submit] {
     width: 100%;
     text-align: center;
 }
+
+@media screen and (max-width: 1200px) {
+    #treatments { 
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+
+.divider-image{
+    padding: 30px;
+    margin: 0;
+}
+
+#treatments-left{
+    width: 100%;
+    float: left;
+}
+
+#treatments-center{
+    clear: both;
+    width: 100%;
+    padding: 0;
+}
+
+hr {
+    none
+ }
+}
+
+@media screen and {
+       #nav {
+           clear: left;
+           float: left;   
+       }   margin-left: 20px;
+
+
+
+}

@@ -107,7 +107,7 @@ hr {
 
 }
 
-/* neck massage image*/
+/* divider image*/
 
 .neck-massage-image {
     background: url('../images/resizedmalemassage.jpeg') no-repeat center center;
@@ -180,12 +180,14 @@ hr {
 
 .treatment-images {
     background-color: white;
-    padding-top: 0;
+    padding-top: 1%;
     padding: 0;
     position: absolute;
+    margin: 1%;
 
 
 }
+
 
 
 
@@ -245,7 +247,7 @@ form {
 }
 
 .contact-form h2 {
-    font-family: 'Josefin Sans',sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     text-decoration: underline;
     text-align: center;
     font-size: xx-large;
@@ -283,8 +285,8 @@ form {
 
 }
 
-#additional-information:active{
-    color:black
+#additional-information:active {
+    color: black
 }
 
 input[type=submit] {
@@ -309,9 +311,9 @@ input[type=submit] {
     width: 100%;
 }
 
-#gmap{
-    width: 600px; 
-    height: 150px; 
+#gmap {
+    width: 600px;
+    height: 150px;
 }
 
 .gmap_canvas {
@@ -323,40 +325,28 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 1200px) {
-    #treatments { 
+    #treatments {
         width: 65%;
-        height: 1200px;
-        margin: 0 auto;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
     }
 
-
-.divider-image{
-    padding: 30px;
-    margin: 0;
 }
 
-#treatments-left{
-    width: 100%;
-    float: left;
+@media screen and (max-width: 950px) {
+    #nav {
+        clear: left;
+        float: left;
+    }
 }
 
-#treatments-center{
-    clear: both;
-    width: 100%;
-    padding: 0;
-}
-
-hr {
-    none
- }
-}
-
-@media screen and {
-       #nav {
-           clear: left;
-           float: left;   
-       }   margin-left: 20px;
-
-
-
+@media screen and (max-width: 1030px) {
+    #logo {
+        clear: left;
+        float: left;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 }

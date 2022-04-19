@@ -6,7 +6,7 @@ and pormote better function of the body! My goal with every section is to inform
 
 
 
-Welcome to Massage at Solid gym. https://jaredslocker21.github.io/P1-Massage-at-Solid-Gym/index.html#treatments
+Welcome to Massage at Solid gym. https://jaredslocker21.github.io/P1-Massage-at-Solid-Gym/index.html
 
 ## Features 
 This website features 3 sections, and 1 external contact form page that are all responsive, clear and are positioned at the top of the page. We will discuss each feature below.

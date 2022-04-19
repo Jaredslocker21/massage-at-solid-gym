@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Josefin+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cardo&family=Josefin+Sans&display=swap");
 
 * {
     margin: 0;
     padding: 0;
     border: none;
-
 }
 
 a {
@@ -19,7 +18,7 @@ a:hover {
 body {
     font-family: Cardo, sans-serif;
     font-weight: 400;
-    color: #3a3a3a
+    color: #3a3a3a;
 }
 
 /*heading and logo*/
@@ -27,12 +26,11 @@ body {
 header {
     height: 200px;
     width: 100%;
-
 }
 
 h1,
 h2 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #2b2a2a;
@@ -40,9 +38,9 @@ h2 {
 
 #logo {
     text-align: center;
-    font-size: 300%;
+    font-size: 3rem;
+    padding: 10px;
 }
-
 
 .active {
     border-bottom: 2px solid #1a237e;
@@ -50,7 +48,7 @@ h2 {
 
 /*Navigation Menu*/
 #nav {
-    font-size: x-large;
+    font-size: 1.5rem;
     letter-spacing: 4px;
     margin: 5px auto;
     text-align: center;
@@ -60,26 +58,21 @@ h2 {
     display: inline-block;
     margin: 0 auto;
     text-align: center;
-    padding: 40px;
-
+    padding: 20px;
 }
-
-
 
 /* Hero Image */
 #hero-outer {
     height: 780px;
     width: 100%;
     overflow: hidden;
-
+    padding: 5px;
 }
 
 #hero-image {
     height: 780px;
     width: 100%;
-
-    background: url('../images/psychology-sports-performance.jpg') no-repeat center center;
-
+    background: url("../images/psychology-sports-performance.jpg") no-repeat center center;
     position: relative;
 }
 
@@ -89,65 +82,57 @@ h2 {
     padding: 10px;
     height: auto;
     width: 100%;
-    font-size: 3.0rem ;
+    font-size: 3rem;
     text-align: center;
 }
 
 #massage-therapy p {
-    font-family: 'Cardo', sans-serif;
-    font-size: 2.0rem;
+    font-family: "Cardo", sans-serif;
+    font-size: 2rem;
     padding: 10px;
-
 }
-
-
 
 hr {
     border-top: 2px solid;
     width: 70%;
     margin: auto;
-
 }
 
 /* divider image*/
 
 .neck-massage-image {
-    background: url('../images/resizedmalemassage.jpeg') no-repeat center center;
+    background: url("../images/resizedmalemassage.jpeg") no-repeat center center;
     height: 640px;
 }
 
 #cover-text,
 #cover-text h2 {
     color: black;
-
-
 }
 
 #cover-text {
     height: 200px;
     width: 320px;
     font-size: 1.3rem;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     text-align: center;
-    background-color: rgba(83, 75, 174, .7);
+    background-color: rgba(83, 75, 174, 0.7);
     padding-top: 30px;
     position: absolute;
     margin: 1%;
-
 }
 
 /*treatment section*/
 
 #treatments {
-    
     display: flex;
     flex-direction: row;
     text-align: left;
-    padding: 40px; 
-    font-family: 'Cardo', sans-serif;
+    padding: 40px;
+    font-family: "Cardo", sans-serif;
 }
 
-#treatments-item{
+#treatments-item {
     margin: 16px;
 }
 
@@ -158,11 +143,7 @@ hr {
     margin: 1%;
     height: 183px;
     width: 275px;
-
 }
-
-
-
 
 /*footer*/
 footer {
@@ -170,23 +151,20 @@ footer {
     background-color: rgb(55, 50, 129);
 }
 
-
 /*social-network-icons*/
 
 .social-network-icons {
     text-align: center;
-
 }
 
 .social-network-icons li {
-    display: inline
+    display: inline;
 }
 
 .social-network-icons i {
-    font-size: 3.0rem;
+    font-size: 3rem;
     color: white;
     margin: 2%;
-
 }
 
 /* Sign-Up here Form */
@@ -196,7 +174,6 @@ form {
 }
 
 #form-container {
-    height: 1300px;
     width: 30%;
     margin: auto;
     border-radius: 10px;
@@ -204,24 +181,17 @@ form {
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: lightgrey;
-
-
-
 }
 
 .contact-form {
-    margin-top: 20px;
-    margin-left: 5px;
-
-
-
+    margin: ;
 }
 
 .contact-form h2 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     text-decoration: underline;
     text-align: center;
-    font-size: 2.0rem;
+    font-size: 2rem;
     padding: 10px;
 }
 
@@ -231,14 +201,12 @@ form {
     text-align: center;
 }
 
-
 .input-field {
     width: 98%;
     height: 30px;
     border: 1px solid black;
     color: black;
     font-size: medium;
-
 }
 
 .input-field:active {
@@ -251,14 +219,13 @@ form {
     height: 300px;
     color: black;
     font-size: x-large;
-
 }
 
 #additional-information:active {
-    color: black
+    color: black;
 }
 
-input[type=submit] {
+input[type="submit"] {
     width: 150px;
     height: 40px;
     border: none;
@@ -299,7 +266,6 @@ input[type=submit] {
         flex-direction: column;
         margin: 10px;
     }
-
 }
 
 @media screen and (max-width: 950px) {

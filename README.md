@@ -3,18 +3,21 @@
 ![Responsive screenshot](/assets/images/multi-divice-screenshot.png)
 
 # MASSAGE AT SOLID GYM
-- The basis for this website is inspired by my own registered business here is southern Sweden. This website aims to inspire future clients to receive treatments and to maintain good muscle function and 
-and promote better function of the body! 
-- Short and Clear descriptions are used with an easy to read flow.
+- The basis for this website is inspired by my own registered business here is southern Sweden. 
+- This website aims to inspire future clients to receive treatments by their local massage therapist.
+- Our demographic base is broad within the idea that those in need of massage are here to help.
 
 
 Welcome to Massage at Solid gym. https://jaredslocker21.github.io/P1-Massage-at-Solid-Gym/index.html
 
 ## UX/UI 
  - Users are welcome to experience a clean and easily to navigate website, Easy to access navigation bar, short and clear descriptions and an easy form to fill out.
+ - Returning guests will also be able to find contact inormation and directions easily.
  - Initial concepts uses Balsamic wireframes. 
+ - This site will also explain in short.  What Massage Therapy is, who benefits from it, what types of massage can they receive, prices, What to wear, how to contact us and be contacted by us.
+ 
 
- ![Balasmic Wireframs](/assets/images/baslamic%20wire%20frame-resize.png) ![Balasmic Wireframs](/assets/images/balsamic-wirefram2-resize.png)
+ ![Balasmic Wireframs](/assets/images/baslamic-wire-frame-resize.png) ![Balasmic Wireframs](/assets/images/wireframe2-resized.png)
 
 ## Features 
 This website features 4 sections, and 1 external contact form page that are all responsive. We will discuss each feature below.
@@ -26,7 +29,7 @@ This website features 4 sections, and 1 external contact form page that are all 
   - Contact Page (opens in a external tab)
   - Footer
 
-### Existing Features
+### Current Features
 
 - __Navigation Bar__
 
@@ -66,10 +69,18 @@ This website features 4 sections, and 1 external contact form page that are all 
 	- Sign- Up here at the top has an input that is clearly labeled and the form is functional. Each input has an aria-label for accessability.
 	- Contact-Us closer to the bottom has an E-mail address, Phone numner an address and a map with that also links to an external larger map for precise directions. 
 
+- __Footer__
+  
+  - The footer contains three social media links that will open a new tab.
+  - These links create a good social presence to the public.
+  - The footer is maintained in the contact page 
+
 ### Content 
 
 - The content was written and composed by myself. Ideas and definitions were clarified in my massage therapy education.
-- color scheme is relaying a clean and open feeeling. Blue tones give a relaxing feeling. I did not use the hot pink or pastel pink.
+- The color scheme is relaying a clean and open feeling while the blue tones give are relaxing. I did not use the hot pink or pastel pink.
+Followed in accordance with [Material.io color tool](https://material.io/) 
+- Fonts for the header and body were taken from [Font Awesome](https://fontawesome.com/) 
 
 ![color scheme screen shot](/assets/images/color-scheme-resized%20.png)
 
@@ -104,6 +115,8 @@ This website features 4 sections, and 1 external contact form page that are all 
 ### Technologies Used
 - Github and Gitpod Development Environments. 
 - Google Chrome Dev Tools.
+- Balsamic Wire Frames
+-
 
 
 

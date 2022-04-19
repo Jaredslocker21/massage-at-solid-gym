@@ -80,7 +80,8 @@ This website features 4 sections, and 1 external contact form page that are all 
 - The content was written and composed by myself. Ideas and definitions were clarified in my massage therapy education.
 - The color scheme is relaying a clean and open feeling while the blue tones give are relaxing. I did not use the hot pink or pastel pink.
 Followed in accordance with [Material.io color tool](https://material.io/) 
-- Fonts for the header and body were taken from [Font Awesome](https://fontawesome.com/) 
+- Icons were taken [Font Awesome](https://fontawesome.com/) 
+- Fonts were taken from [Google Fonts](https://fonts.google.com/)
 
 ![color scheme screen shot](/assets/images/color-scheme-resized%20.png)
 
@@ -116,10 +117,6 @@ Followed in accordance with [Material.io color tool](https://material.io/)
 - Github and Gitpod Development Environments. 
 - Google Chrome Dev Tools.
 - Balsamic Wire Frames
--
-
-
-
 
 ### Unfixed Bugs
 
@@ -137,9 +134,9 @@ The live link can be found here - https://jaredslocker21.github.io/P1-Massage-at
 ## Credits 
 
 -code: Some of the code, language and structure used are examples takes from the love running walkthrough project and the coders coffee.
--Photos: credits go to open licesnsed Adobe stock. https://stock.adobe.com/
+-Photos: credits go to open licensed Adobe stock. https://stock.adobe.com/
 -The submit button was inpired by:   https://freefrontend.com/css-submit-buttons/
 -Help and comradary is super important and I'd like to Credit Lauren Nicole and Mats Simonsson for inspiration and encouragement!
 -My mentor Akshat Garg for the valuable inforamtion needed.
 -W3 schools for helping answering question
--Stack overflow but not very much.S
+-Stack overflow but not very much.

@@ -86,15 +86,17 @@ h2 {
 #massage-therapy {
     margin-top: 40px;
     margin-bottom: 30px;
+    padding: 10px;
     height: auto;
     width: 100%;
-    font-size: x-large;
+    font-size: 3.0rem ;
     text-align: center;
 }
 
 #massage-therapy p {
     font-family: 'Cardo', sans-serif;
-    font-size: 122%;
+    font-size: 2.0rem;
+    padding: 10px;
 
 }
 
@@ -124,65 +126,35 @@ hr {
 #cover-text {
     height: 200px;
     width: 320px;
-    font-size: 130%;
+    font-size: 1.3rem;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     background-color: rgba(83, 75, 174, .7);
-
     padding-top: 30px;
-
-
     position: absolute;
-
     margin: 1%;
-
-
 
 }
 
 /*treatment section*/
 
 #treatments {
-    height: 450px;
-    width: 100%;
+    
     display: flex;
     flex-direction: row;
     text-align: left;
-    padding-bottom: 60px;
-    padding-top: 40px;
+    padding: 40px; 
     font-family: 'Cardo', sans-serif;
 }
 
-#treatments-left {
-
-    padding-top: 30px;
-    padding-left: 25px;
-    width: 33%;
-    margin: 1%;
-
+#treatments-item{
+    margin: 16px;
 }
-
-#treatments-center {
-    padding-top: 30px;
-    width: 33%;
-    margin: 1%;
-
-
-}
-
-#treatments-right {
-    padding-top: 30px;
-    width: 33%;
-    margin: 1%;
-
-}
-
 
 .treatment-images {
     background-color: white;
     padding-top: 1%;
     padding: 0;
-    position: absolute;
     margin: 1%;
     height: 183px;
     width: 275px;
@@ -211,7 +183,7 @@ footer {
 }
 
 .social-network-icons i {
-    font-size: 300%;
+    font-size: 3.0rem;
     color: white;
     margin: 2%;
 
@@ -220,14 +192,12 @@ footer {
 /* Sign-Up here Form */
 
 form {
-    width: 100%;
-    height: 700px;
-
+    width: 70%;
 }
 
 #form-container {
     height: 1300px;
-    width: 800px;
+    width: 30%;
     margin: auto;
     border-radius: 10px;
     border: solid 1px #3a3a3a;
@@ -251,12 +221,13 @@ form {
     font-family: 'Josefin Sans', sans-serif;
     text-decoration: underline;
     text-align: center;
-    font-size: xx-large;
+    font-size: 2.0rem;
+    padding: 10px;
 }
 
 .contact-form p {
     font-family: Cardo, sans-serif;
-    font-size: 130%;
+    font-size: 1.3rem;
     text-align: center;
 }
 
@@ -268,10 +239,6 @@ form {
     color: black;
     font-size: medium;
 
-}
-
-.input-field:hover {
-    background-color: #534bae;
 }
 
 .input-field:active {
@@ -328,9 +295,8 @@ input[type=submit] {
 
 @media screen and (max-width: 1200px) {
     #treatments {
-        width: 65%;
-        height: 1500px;
-        display: block;
+        justify-content: space-between;
+        flex-direction: column;
         margin: 10px;
     }
 
@@ -346,7 +312,7 @@ input[type=submit] {
 @media screen and (max-width: 1030px) {
     #logo {
         clear: left;
-        float: left;
+        padding: 20px;
         margin-top: 5px;
         margin-bottom: 5px;
     }

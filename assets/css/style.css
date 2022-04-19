@@ -184,7 +184,8 @@ hr {
     padding: 0;
     position: absolute;
     margin: 1%;
-
+    height: 183px;
+    width: 275;
 
 }
 
@@ -225,7 +226,7 @@ form {
 }
 
 #form-container {
-    height: 1200px;
+    height: 1300px;
     width: 800px;
     margin: auto;
     border-radius: 10px;
@@ -256,6 +257,7 @@ form {
 .contact-form p {
     font-family: Cardo, sans-serif;
     font-size: 130%;
+    text-align: center;
 }
 
 
@@ -328,9 +330,8 @@ input[type=submit] {
     #treatments {
         width: 65%;
         height: 1500px;
-        display: flex;
-        flex-direction: column;
-        margin: auto;
+        display: block;
+        margin: 10px;
     }
 
 }

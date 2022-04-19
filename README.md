@@ -1,108 +1,100 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Welcome too Massage at SOlid Gym
 
-Welcome Jaredslocker21,
+The basis for this website was inspired by my own registered business here is southern Sweden. This website aims to inspire future clients to receive treatments and to maintain good muscle function and 
+and pormote better function of the body! My goal with every section is to inform reader through short and clear descriptions about what to expect and not to overload with big chunks of text.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Welcome to Massage at Solid gym. https://jaredslocker21.github.io/P1-Massage-at-Solid-Gym/index.html#treatments
 
-`python3 -m http.server`
+## Features 
+This website features 3 sections, and 1 external contact form page that are all responsive, clear and are positioned at the top of the page. We will discuss each feature below.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+### Existing Features
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- __Navigation Bar__
 
-A blue button should appear to click: _Make Public_,
+  - First seen at the top of the website is our navigation bar with 4 responsive links. Home, Massage Therapy, Treatments and Contact Page. 3 of those are redirected to their respective section on the page and the conact form which is redirects to an external page
+  that also contains the Navigation Bar.
+  
+  - The navigation bar is clear and easy to read and understand for all users to navitgate the website. Aria Labels are also added to the links in the navigation bar to allow for better access to those in need.
+  
+-__Logo__
+  -The logo Massage at Solid Gym, connects the Navigation bar and main page image. It is a link and contains an aria-label for accessability to those i need.  
 
-Another blue button should appear to click: _Open Browser_.
+- __The landing page image__
+  -The landing image is a beautiufal image of a body in motion that should reflect the connection between movement and massage. Emphasised by the logo. An aria-label is also added for acc
+ 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- __Massage Therapy Section__
+   - The Massage Therapy Section gives a brief and clear description of what Massage Therapy is,  what to expect while leading our reader on to our next section. Treatments.
+   Emphasizing the three directions in . Sports, Occupational and Rehabilitation therapy.
+   
+   
+   
+- __Divider Image__
 
-To log into the Heroku toolbelt CLI:
+  - The divider image informs the visitor with a clear example of how massage therapy differs from a classical massage by it's presentation and adds to the previous Massage Therapy Definition through 
+  an image. It also contains a CTA  (call to action) with a overlay text. photo credit: open licnesed Adobe Stock Images.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- __The Treatments Section__ 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+   - This section contains 3 clear descriptions, prices and more information about what to expect. 
+   - The images underlining each description gives the visitor an understanding of why we need massage when pain persists. 
+   photo credit: open licensed Adobe stock photos.
 
-------
 
-## Release History
+- __Contact Page__
+	
+	- The link opens up in a new tab. It gives our visitors a simple and clear form to fillout.  Our clients have very specific needs and all treatments are customized based on the persons health and medical history. All treatments are booked
+	personally with your Therapist. 
+	- Sign- Up here at the top has an input that is clearly labeled and the form is functional. Each input has an aria-label for accessability.
+	- Contact-Us closer to the bottom has an E-mail address, Phone numner an address and a map with that also links to an external larger map for precise directions. 
+	
+### Features Left to Implement
+  - As this will become/grow into something more dynamic. I would also like to add a reviews section a coupons, more options in my Sign-Up form. 
+  - As the company grows. I would also like to add a community outreach program that reaches those in need of more excersize and movement for those with linited mobility.
+  
+## Testing 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+  - This website has passed all tests through Google Chromes Dev. Tool, 'Lighthouse'. It is responsive and shows promise through.
+  techsini.com that is a multi device website mock-up generator.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Validator Testing 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Unfixed Bugs
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Deployment
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+The live link can be found here - https://jaredslocker21.github.io/P1-Massage-at-Solid-Gym/form.html
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Credits 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+-code: Some of the code, language and structure used are examples takes from the love running walkthrough project and the coders coffee.
+-Photos: credits go to open licesnsed Adobe stock. 
+-The submit button was inpired by:   https://freefrontend.com/css-submit-buttons/
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Content 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- The content was written and composed by myself. Ideas and definitions were clarified in my massage therapy education.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Media
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+-Photos: credits go to open licesnsed Adobe stock.
 
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+the process! 

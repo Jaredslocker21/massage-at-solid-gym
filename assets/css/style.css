@@ -100,6 +100,7 @@ hr {
     border-top: 2px solid;
     width: 70%;
     margin: auto;
+    padding:10px;
 }
 
 /* divider image*/
@@ -132,12 +133,21 @@ hr {
 
 /*treatment section*/
 
+
+#treatments-header{
+    width:100%;
+    font-size: 3.0rem;
+    text-align: center;
+    margin: auto;
+    padding-top: 40px;
+}
+
 #treatments {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     text-align: left;
-    padding: 10px;
+    padding: 40px;
     font-family: "Cardo", sans-serif;
 }
 
@@ -165,9 +175,9 @@ hr {
 
 /*footer*/
 footer {
-    height: 150px;
-    background-color: rgb(55, 50, 129);
+    height: 200px;
     width: 100%;
+    background-color: rgb(55, 50, 129);
 }
 
 /*social-network-icons*/
@@ -178,12 +188,16 @@ footer {
 
 .social-network-icons li {
     display: inline;
+  
+    
 }
 
 .social-network-icons i {
     font-size: 3rem;
     color: white;
-    margin: 2%;
+    padding: 80px;
+    
+    
 }
 
 /* Sign-Up here Form */

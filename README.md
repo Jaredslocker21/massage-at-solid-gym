@@ -8,7 +8,7 @@
 - Our demographic base is broad within the idea that those in need of massage are here to help.
 
 
-Welcome to Massage at Solid gym. https://jaredslocker21.github.io/P1-Massage-at-Solid-Gym/index.html
+Welcome to Massage at Solid gym. https://jaredslocker21.github.io/massage-at-solid-gym/index.html
 
 ## UX/UI 
  - Users are welcome to experience a clean and easily to navigate website, Easy to access navigation bar, short and clear descriptions and an easy form to fill out.
@@ -130,7 +130,7 @@ As of now just some media queries before I submit.
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://jaredslocker21.github.io/P1-Massage-at-Solid-Gym/form.html
+The live link can be found here - https://jaredslocker21.github.io/massage-at-solid-gym/index.html
 
 ## Credits 
 

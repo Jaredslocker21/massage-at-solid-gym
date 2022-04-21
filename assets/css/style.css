@@ -28,12 +28,23 @@ header {
     width: 100%;
 }
 
-h1,
-h2 {
+h1
+ {
     font-family: "Josefin Sans", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #2b2a2a;
+}
+
+h2{
+    font-family: Cardo, sans-serif;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #2b2a2a;
+    text-align: center;
+    
 }
 
 #logo {
@@ -89,6 +100,7 @@ h2 {
 #massage-therapy>h2 {
     font-size: 3.0rem;
     padding: 10px;
+    text-decoration: none;
 }
 
 #massage-therapy>p {
@@ -140,6 +152,7 @@ hr {
     text-align: center;
     margin: auto;
     padding-top: 40px;
+    text-decoration: none;
 }
 
 #treatments {
@@ -161,6 +174,11 @@ hr {
 
 #treatments-item li {
     font-size: 1rem;
+}
+
+#treatments-item ul {
+        padding: 5px;
+        margin-left: 10px;
 }
 
 

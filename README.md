@@ -4,8 +4,8 @@
 
 # MASSAGE AT SOLID GYM
 - The basis for this website is inspired by my own registered business here is southern Sweden. 
-- This website aims to inspire future clients to receive treatments by their local massage therapist.
-- Our demographic base is broad within the idea that those in need of massage are here to help.
+- This website aims to inspire future clients receive treatments by their local massage therapist.
+- Our demographic base is broad but is a local setting.
 
 
 Welcome to Massage at Solid gym. https://jaredslocker21.github.io/massage-at-solid-gym/index.html

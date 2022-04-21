@@ -214,22 +214,24 @@ input[type=text],
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    box-shadow: 5px 10px #888888;
 }
 
 #form-container {
     width: 30%;
     margin: auto;
     border-radius: 10px;
-    border: solid 1px #3a3a3a;
+    border: solid 1px #ccc;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: lightgrey;
+    box-shadow: 5px 10px #888888; 
+    background-color:;
 
 
 }
 
 .contact-form>h2 {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: Cardo , sans-serif;
     text-decoration: underline;
     text-align: center;
     font-size: 2rem;
@@ -259,13 +261,13 @@ input[type=text],
 
 input[type="submit"] {
     width: 150px;
-    height: 40px;
+    height: 30px;
     border: none;
     outline: none;
-    background: #534bae;
-    color: #fff;
-    font-size: 22px;
-    border-radius: 40px;
+    
+    color: #2b2a2a;
+    font-size: 15px;
+    border-radius: 8px;
     text-align: center;
     position: relative;
     overflow: hidden;

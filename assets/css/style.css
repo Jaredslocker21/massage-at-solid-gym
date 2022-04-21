@@ -40,6 +40,7 @@ h2 {
     text-align: center;
     font-size: 3rem;
     padding: 10px;
+    margin:20px
 }
 
 .active {
@@ -74,6 +75,7 @@ h2 {
     width: 100%;
     background: url("../images/psychology-sports-performance.jpg") no-repeat center center;
     position: relative;
+    margin-top: 1px;
 }
 
 #massage-therapy {
@@ -136,6 +138,15 @@ hr {
     margin: 16px;
 }
 
+#treatments-item p {
+    font-size: 1.3rem;
+}
+
+#treatments-item li {
+    font-size: 1.2rem;
+}
+
+
 .treatment-images {
     background-color: white;
     padding-top: 1%;
@@ -170,7 +181,16 @@ footer {
 /* Sign-Up here Form */
 
 form {
-    width: 70%;
+    padding: 10px;
+}
+
+input[type=text], .input-field {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 #form-container {
@@ -181,10 +201,6 @@ form {
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: lightgrey;
-}
-
-.contact-form {
-    margin: ;
 }
 
 .contact-form h2 {
@@ -201,24 +217,15 @@ form {
     text-align: center;
 }
 
-.input-field {
-    width: 98%;
-    height: 30px;
-    border: 1px solid black;
-    color: black;
-    font-size: medium;
-}
-
 .input-field:active {
     background-color: #534bae;
     color: black;
 }
 
 #additional-information {
-    width: 98%;
     height: 300px;
     color: black;
-    font-size: x-large;
+    font-size: 1.6rem;
 }
 
 #additional-information:active {
@@ -237,7 +244,7 @@ input[type="submit"] {
     text-align: center;
     position: relative;
     overflow: hidden;
-    cursor: pointer;
+    cursor: progress;
 }
 
 .mapouter {
@@ -250,14 +257,18 @@ input[type="submit"] {
 #gmap {
     width: 600px;
     height: 150px;
+    
+    
 }
 
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
     height: 150px;
-    width: 100%;
-    text-align: center;
+    width: 450px;
+    margin: auto;
+    padding-bottom: 10px;
+    
 }
 
 @media screen and (max-width: 1200px) {
@@ -274,12 +285,21 @@ input[type="submit"] {
         float: left;
     }
 }
-
+/*
 @media screen and (max-width: 1030px) {
     #logo {
         clear: left;
         padding: 20px;
         margin-top: 5px;
         margin-bottom: 5px;
+        float: left;
+    }
+}
+*/
+@media screena and (max-width: 1030px){
+    .contact-form{
+        float: left;
+        clear: left;
+
     }
 }

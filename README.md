@@ -93,11 +93,12 @@ Followed in accordance with [Material.io color tool](https://material.io/)
   - As this will become/grow into something more dynamic. I would also like to add a reviews section a coupons, more options in my Sign-Up form. 
   - As the company grows. I would also like to add a community outreach program that reaches those in need of more excersize and movement for those with linited mobility.
   
-## Testing 
+## Testing
 
   - This website has passed all tests through Google Chromes Dev. Tool, 'Lighthouse'. It is responsive and shows promise through.
   techsini.com that is a multi device website mock-up generator. 
-  - I have tested the site on Microsoft Edge and the current Apple IOS.
+  - I have tested the site on Microsoft Edge and the current Apple IOS, IPhone XR, Iphone Pro 12, Pixel 5, Samsung Galaxy, Ipod air, Ipod Mini, Sufrace Duo, Galaxy Fold, Samsung Galaxy A51/71,
+    Nest Hub, Nest Hub Max 
 
 ![lighthouse results](/assets/images/lighthouse%20performance.png)
 
@@ -133,10 +134,10 @@ The live link can be found here - https://jaredslocker21.github.io/P1-Massage-at
 
 ## Credits 
 
--code: Some of the code, language and structure used are examples takes from the love running walkthrough project and the coders coffee.
--Photos: credits go to open licensed Adobe stock. https://stock.adobe.com/
--The submit button was inpired by:   https://freefrontend.com/css-submit-buttons/
--Help and comradary is super important and I'd like to Credit Lauren Nicole and Mats Simonsson for inspiration and encouragement!
--My mentor Akshat Garg for the valuable inforamtion needed.
--W3 schools for helping answering question
--Stack overflow but not very much.
+- code: Some of the code, language and structure used are examples takes from the love running walkthrough project and the coders coffee.
+- Photos: credits go to open licensed Adobe stock. https://stock.adobe.com/
+- The submit button was inpired by:   https://freefrontend.com/css-submit-buttons/
+- Help and comradary is super important and I'd like to Credit Lauren Nicole and Mats Simonsson for inspiration and encouragement!
+- My mentor Akshat Garg for the valuable inforamtion needed.
+- W3 schools for helping answering question
+- Stack overflow but not very much.

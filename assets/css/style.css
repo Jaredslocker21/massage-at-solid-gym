@@ -76,14 +76,14 @@ h2{
     height: 780px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 
 }
 
 #hero-image {
     height: 780px;
     width: 100%;
-    background: url("../images/psychology-sports-performance.jpg") no-repeat center center;
-    position: relative;
+    background: url("../images/psychology-sports-performance.jpg") no-repeat center;
     margin-top: 1px;
 }
 
@@ -326,6 +326,8 @@ input[type="submit"] {
         justify-content: space-between;
         flex-direction: column;
         margin: 10px;
+        text-align: left;
+    
     }
 }
 
@@ -336,7 +338,7 @@ input[type="submit"] {
     }
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 850px) {
     #logo {
         clear: left;
         float: left;

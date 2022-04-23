@@ -28,15 +28,14 @@ header {
     width: 100%;
 }
 
-h1
- {
+h1 {
     font-family: "Josefin Sans", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #2b2a2a;
 }
 
-h2{
+h2 {
     font-family: Cardo, sans-serif;
     font-size: 1.0rem;
     text-decoration: underline;
@@ -44,7 +43,7 @@ h2{
     letter-spacing: 4px;
     color: #2b2a2a;
     text-align: center;
-    
+
 }
 
 #logo {
@@ -73,14 +72,21 @@ h2{
 
 /* Hero Image */
 #hero-outer {
-    height: 780px;
-    width: 100%;
-    overflow: hidden;
+    height: auto;
+    width: auto;
     position: relative;
-    margin: 0 auto;
+    margin: auto;
+    
 
 }
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+  }
 
+
+/*
 #hero-image {
     height: 780px;
     background: url("../images/movement3.jpg") no-repeat center center ;
@@ -89,6 +95,7 @@ h2{
     max-width: 100%;
     
 }
+*/
 
 /*massaage Therapy Section */
 
@@ -132,7 +139,7 @@ hr {
 #cover-text,
 #cover-text h2 {
     color: black;
-    text-decoration:none ;
+    text-decoration: none;
 }
 
 #cover-text {
@@ -145,7 +152,7 @@ hr {
     padding-top: 30px;
     position: relative;
     margin: 1%;
-    
+
 }
 
 /*treatment section*/
@@ -182,8 +189,8 @@ hr {
 }
 
 #treatments-item ul {
-        padding: 5px;
-        margin-left: 10px;
+    padding: 5px;
+    margin-left: 10px;
 }
 
 
@@ -243,18 +250,18 @@ input[type=text],
     box-sizing: border-box;
     box-shadow: 5px 10px #888888;
     display: block;
-    
+
 }
 
 #form-container {
     width: 75%;
     margin: 0 auto;
-    border-radius: 10px;    
+    border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: 5px 10px #888888;
     padding: 20px;
-    
+
 }
 
 .contact-form>h2 {
@@ -335,7 +342,7 @@ input[type="submit"] {
         flex-direction: column;
         margin: 10px;
         text-align: left;
-    
+
     }
 }
 
@@ -359,7 +366,7 @@ input[type="submit"] {
 
 @media screen and (max-width: 600px) {
     #form-container {
-       
+
         padding: 10px;
         width: 90%;
 

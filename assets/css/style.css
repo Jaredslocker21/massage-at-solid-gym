@@ -15,6 +15,12 @@ a:hover {
     border-bottom: 2px solid black;
 }
 
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+  }
+
 body {
     font-family: Cardo, sans-serif;
     font-weight: 400;
@@ -334,7 +340,7 @@ input[type="submit"] {
         justify-content: space-between;
         flex-direction: column;
         margin: 10px;
-        text-align: left;
+        text-align: center;
     
     }
 }
@@ -380,3 +386,4 @@ input[type="submit"] {
 
     }
 }
+

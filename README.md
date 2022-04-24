@@ -141,3 +141,8 @@ The live link can be found here - https://jaredslocker21.github.io/massage-at-so
 - My mentor Akshat Garg for the valuable inforamtion needed.
 - W3 schools for helping answering question
 - Stack overflow but not very much.
+
+## On going issues
+-sizing issues when responding with other device widths an that really is the main goal.
+-finding out about git diff, git pull and git diff really helped me see what I was looking at. 
+-rem for all fonts, make all h2 font sizes the same and all of the p one size to make everything consistent 

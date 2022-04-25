@@ -1,6 +1,6 @@
 # Welcome too Massage at Solid Gym
 
-![Responsive screenshot](/assets/images/multi-divice-screenshot.png)
+![Responsive screenshot](/assets/images/mockupupdated.png)
 
 # MASSAGE AT SOLID GYM
 - The basis for this website is inspired by my own registered business here is southern Sweden. 
@@ -15,6 +15,7 @@ Welcome to Massage at Solid gym. https://jaredslocker21.github.io/massage-at-sol
  - Returning guests will also be able to find contact inormation and directions easily.
  - Initial concepts uses Balsamic wireframes. 
  - This site will also explain in short.  What Massage Therapy is, who benefits from it, what types of massage can they receive, prices, What to wear, how to contact us and be contacted by us.
+ -  Original Template was created from code institute.
  
 
  ![Balasmic Wireframs](/assets/images/baslamic-wire-frame-resize.png) ![Balasmic Wireframs](/assets/images/wireframe2-resized.png)
@@ -143,6 +144,6 @@ The live link can be found here - https://jaredslocker21.github.io/massage-at-so
 - Stack overflow but not very much.
 
 ## On going issues
--sizing issues when responding with other device widths an that really is the main goal.
--finding out about git diff, git pull and git diff really helped me see what I was looking at. 
--rem for all fonts, make all h2 font sizes the same and all of the p one size to make everything consistent 
+- sizing issues when responding with other device widths an that really is the main goal.
+- finding out about git diff, git pull and git diff really helped me see what I was looking at. 
+- rem for all fonts, make all h2 font sizes the same and all of the p one size to make everything consistent 

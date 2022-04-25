@@ -6,6 +6,10 @@
     border: none;
 }
 
+html, body {
+    height: 100%;
+}
+
 a {
     text-decoration: none;
     color: #2b2a2a;
@@ -59,6 +63,7 @@ h2 {
     font-size: 3rem;
     padding: 10px;
     margin: 20px
+    
 }
 
 .active {
@@ -83,16 +88,21 @@ h2 {
     height: auto;
     width: auto;
     position: relative;
-    margin: auto;
+    margin: 0 auto;
 
 
 }
 
-img {
+#hero-image{
+    width: 90%;
+    
+    margin-left: auto;
+    margin-right: auto;
     max-width: 100%;
     max-height: 100%;
-    display: block;
-    /* remove extra space below image */
+    margin: 0 auto;
+
+  
 }
 
 /*massaage Therapy Section */
@@ -135,12 +145,14 @@ hr {
     overflow: hidden;
     background-color: white;
     display: flex;
-    align-content: center;
+   
 
 }
 
 #cover-text {
     font-size: 2vw;
+    text-shadow: 2px 3px #2b2a2a;
+    letter-spacing: 1px;
     text-align: center;
     width: 20%;
     background-color: rgba(83, 75, 174, .5);
@@ -150,6 +162,7 @@ hr {
     position: relative;
     align-self: baseline;
     top: 110px;
+    
 
 
 }
@@ -175,7 +188,6 @@ hr {
     flex-direction: row;
     justify-content: space-between;
     text-align: left;
-
     font-family: "Cardo", sans-serif;
 }
 
@@ -359,11 +371,11 @@ input[type="submit"] {
 
 @media screen and (max-width: 850px) {
     #logo {
-        clear: left;
-        float: left;
+        clear: both;
         padding: 20px;
         margin-top: 5px;
-        margin-bottom: 5px;
+
+        font-size: 2rem;
 
     }
 
@@ -380,7 +392,7 @@ input[type="submit"] {
 
 
     #divider {
-        height: 300;
+        height: 325px;
     }
 }
 
@@ -389,6 +401,14 @@ input[type="submit"] {
 
         padding: 10px;
         width: 90%;
+
+    }
+
+    #logo {
+        clear: both;
+        padding: 20px;
+        margin-top: 5px;
+        font-size: 1.5rem;
 
     }
 

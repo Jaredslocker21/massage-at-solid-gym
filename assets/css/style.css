@@ -43,13 +43,14 @@ h1 {
 }
 
 h2 {
-    font-family: Cardo, sans-serif;
-    font-size: 1.0rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1rem;
     text-decoration: underline;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #2b2a2a;
     text-align: center;
+    text-decoration: none;
 
 }
 
@@ -97,10 +98,9 @@ img {
 /*massaage Therapy Section */
 
 #massage-therapy {
-    margin-top: 40px;
-    margin-bottom: 30px;
-    padding-bottom: 5px;
-    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    width: 90%;
     text-align: center;
 }
 
@@ -119,48 +119,51 @@ hr {
     border-top: 2px solid;
     width: 70%;
     margin: auto;
-    padding: 10px;
+    padding: 5px;
 }
 
 /* divider image*/
 
-.neck-massage-image {
+#divider {
     background: url("../images/resizedmalemassage.jpeg") no-repeat center center;
-    height: 640px;
-    width: 100%;
-    margin: auto;
-    position: relative;
-    text-align: center;
-}
+    height: 480px;
 
-#cover-text,
-#cover-text h2 {
-    color: black;
-    text-decoration: none;
+    width: 100%;
+    background-size: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
 }
 
 #cover-text {
-    height: 200px;
-    width: 320px;
-    font-size: 1.3rem;
-    font-family: "Josefin Sans", sans-serif;
+    font-size: 2vw;
     text-align: center;
-    background-color: rgba(83, 75, 174, 0.7);
-    padding-top: 30px;
+    line-height: 110%;
+    width: 20%;
+    background-color: rgba(83, 75, 174, .5);
+    color: #111;
+    margin: auto 200px 0 150px;
+    padding: 30px;
+    border-radius: 5%;
     position: relative;
-    margin: 1%;
+    top: 200px;
+    border: 0;
 
 }
+
+
+
+
 
 /*treatment section*/
 
 
 #treatments-header {
     width: 100%;
-    font-size: 3.0rem;
+    font-size: 3vw;
     text-align: center;
-    margin: auto;
-    padding-top: 40px;
+    margin: 0 auto;
+    padding: 1%;
     text-decoration: none;
 }
 
@@ -169,7 +172,7 @@ hr {
     flex-direction: row;
     justify-content: space-between;
     text-align: left;
-    padding: 40px;
+
     font-family: "Cardo", sans-serif;
 }
 
@@ -193,11 +196,10 @@ hr {
 
 .treatment-images {
     background-color: white;
-    padding-top: 10px;
-    padding: 0;
-    margin: 10px;
+    text-align: center;
     height: 183px;
     width: 275px;
+
 }
 
 /*footer*/
@@ -225,9 +227,9 @@ footer {
 }
 
 .social-network-icons i {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #ffff;
-    padding: 80px;
+    padding: 20px;
 
 
 }
@@ -336,11 +338,16 @@ input[type="submit"] {
 @media screen and (max-width: 1200px) {
     #treatments {
         justify-content: space-between;
+        display: flex;
         flex-direction: column;
         margin: 10px;
-        text-align: center;
 
 
+
+    }
+
+    #divider {
+        height: 300px
     }
 }
 
@@ -349,6 +356,11 @@ input[type="submit"] {
         clear: left;
         float: left;
     }
+
+    #divider {
+        height: 225px;
+    }
+
 }
 
 @media screen and (max-width: 850px) {
@@ -360,6 +372,10 @@ input[type="submit"] {
         margin-bottom: 5px;
 
     }
+
+    #divider {
+        height: 400;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -369,7 +385,32 @@ input[type="submit"] {
         width: 90%;
 
     }
+
+    #divider {
+        height: auto;
+    }
+
+
 }
+
+
+@media screen and (max-width: 430px) {
+    #form-container {
+
+        padding: 10px;
+        width: 90%;
+
+    }
+
+    #divider {
+        height: 150px;
+    }
+}
+
+
+
+
+
 
 
 @media screen and (max-width: 1650px) {

@@ -465,6 +465,9 @@ input[type="submit"] {
     #nav {
         font-size: 1.0rem;
     }
+    .treatment-images {
+        width: 80vw
+    }
 
 
 }

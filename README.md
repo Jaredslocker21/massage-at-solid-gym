@@ -119,10 +119,11 @@ Followed in accordance with [Material.io color tool](https://material.io/)
 - Github and Gitpod Development Environments. 
 - Google Chrome Dev Tools.
 - Balsamic Wire Frames
-
+ 
 ### Unfixed Bugs
-
-As of now just some media queries before I submit.
+ 
+24/4 As of now just some media queries before I submit. 
+26/4 Ongoing MQ issues had a response by a fellow peer while reading my readme file. And help ensued. Yes.
 
 ## Deployment
 
@@ -143,11 +144,10 @@ The live link can be found here - https://jaredslocker21.github.io/massage-at-so
 - W3 schools for helping answering question
 - Stack overflow.
 
-## On going issues
-- sizing issues when responding with other device widths an that really is the main goal.
+## On going ideas
 - finding out about git diff, git pull and git status really helped me see what I was looking at. 
 - rem for all fonts, make all h2 font sizes the same and all of the p one size to make everything consistent 
-
+- flex box and flex positioning is cool.  
 
 ## Additional Testing on the Iphone 4? 
 ![iphone 4 image test](/assets/images/iphone-test-images/iphone4-test-index.png)

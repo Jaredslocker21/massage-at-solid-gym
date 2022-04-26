@@ -179,7 +179,7 @@ hr {
     justify-content: space-between;
     text-align: left;
     font-family: "Cardo", sans-serif;
-    padding: 40px;
+    padding: 20px;
 }
 
 #treatments-item {
@@ -466,7 +466,13 @@ input[type="submit"] {
         font-size: 1.0rem;
     }
     .treatment-images {
-        width: 80vw
+        width: 80vw;
+        text-align: center;
+
+
+    }
+    #treatments {
+        padding: 20px 5px 20px 5px;
     }
 
 

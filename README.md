@@ -21,14 +21,14 @@ Welcome to Massage at Solid gym. https://jaredslocker21.github.io/massage-at-sol
  ![Balasmic Wireframs](/assets/images/baslamic-wire-frame-resize.png) ![Balasmic Wireframs](/assets/images/wireframe2-resized.png)
 
 ## Features 
-This website features 4 sections, and 1 external contact form page that are all responsive. We will discuss each feature below.
+This website features 6 sections, and 1 external contact form page that are all responsive. We will discuss each feature below.
   - Navigation Bar and Logo in the header. The Logo is a link back to the main page.
   - The landing page image
   - Massage Therapy Section
-  - A divider Image
+  - A divider Image and call to action
   - Treatments Section 
   - Contact Page (opens in a external tab)
-  - Footer
+  - Footer Contains SOcial media links and a home link back to the top of the page.
 
 ### Current Features
 

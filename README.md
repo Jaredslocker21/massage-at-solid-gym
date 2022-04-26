@@ -11,11 +11,11 @@
 Welcome to Massage at Solid gym. https://jaredslocker21.github.io/massage-at-solid-gym/index.html
 
 ## UX/UI 
- - Users are welcome to experience a clean and easily to navigate website, Easy to access navigation bar, short and clear descriptions and an easy form to fill out.
+ - Users are welcome to experience a clean and easily to navigate website. Easy to access navigation bar, short and clear descriptions and an easy form to fill out.
  - Returning guests will also be able to find contact inormation and directions easily.
- - Initial concepts uses Balsamic wireframes. 
- - This site will also explain in short.  What Massage Therapy is, who benefits from it, what types of massage they can receive, prices, What to wear, how to contact us and be contacted by us.
- -  Original Template was created from code institute.
+ - Initial frame concepts uses Balsamic wireframes. 
+ - This site will  explain in short.  What Massage Therapy is, who benefits from it, what types of massage they can receive, prices, what to wear, how to contact us and be contacted by us.
+ -  Original Template was created by the Code Institute.
  
 
  ![Balasmic Wireframs](/assets/images/baslamic-wire-frame-resize.png) ![Balasmic Wireframs](/assets/images/wireframe2-resized.png)
@@ -145,5 +145,17 @@ The live link can be found here - https://jaredslocker21.github.io/massage-at-so
 
 ## On going issues
 - sizing issues when responding with other device widths an that really is the main goal.
-- finding out about git diff, git pull and git diff really helped me see what I was looking at. 
+- finding out about git diff, git pull and git status really helped me see what I was looking at. 
 - rem for all fonts, make all h2 font sizes the same and all of the p one size to make everything consistent 
+
+
+## Additional Testing on the Iphone 4? 
+![iphone 4 image test](/assets/images/iphone-test-images/iphone4-test-index.png)
+![iphone 4 image test](/assets/images/iphone-test-images/iphone4-test-treatment.png)
+![iphone 4 image test](/assets/images/iphone-test-images/iphone4-test-contact.png)
+![iphone 4 image test](/assets/images/iphone-test-images/iphone4-test-form.png)
+
+
+
+
+

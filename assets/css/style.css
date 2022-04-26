@@ -89,7 +89,7 @@ h2 {
 
 
 
-#hero-image {
+.hero-image {
     width: 90%;
     margin: 0 auto;
     max-width: 100%;
@@ -182,19 +182,19 @@ hr {
     padding: 20px;
 }
 
-#treatments-item {
+.treatments-item {
     margin: 20px;
 }
 
-#treatments-item>p {
+.treatments-item>p {
     font-size: 1rem;
 }
 
-#treatments-item li {
+.treatments-item li {
     font-size: 1rem;
 }
 
-#treatments-item ul {
+.treatments-item ul {
     padding: 5px;
     margin-left: 10px;
 }

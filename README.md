@@ -21,14 +21,16 @@ Welcome to Massage at Solid gym. https://jaredslocker21.github.io/massage-at-sol
  ![Balasmic Wireframs](/assets/images/baslamic-wire-frame-resize.png) ![Balasmic Wireframs](/assets/images/wireframe2-resized.png)
 
 ## Features 
-This website features 6 sections, and 1 external contact form page that are all responsive. We will discuss each feature below.
-  - Navigation Bar and Logo in the header. The Logo is a link back to the main page.
+This website features 8 sections, and 1 external contact form page that are all responsive. We will discuss each feature below.
+  - Navigation Bar 
+  - Logo. Massage Therapy at Solid Gym. The Logo is a link back to the main page.
   - The landing page image
   - Massage Therapy Section
   - A divider Image and call to action
-  - Treatments Section 
+  - Treatments Section
   - Contact Page (opens in a external tab)
-  - Footer Contains SOcial media links and a home link back to the top of the page.
+  - Footer contains four social media links and a home icon/link back to the top of the page.
+  -  
 
 ### Current Features
 
@@ -72,14 +74,14 @@ This website features 6 sections, and 1 external contact form page that are all 
 
 - __Footer__
   
-  - The footer contains three social media links that will open a new tab.
+  - The footer contains 3 social media links that will open a new tab and a home tab that directs you back to the Head of the site.
   - These links create a good social presence to the public.
   - The footer is maintained in the contact page 
 
 ### Content 
 
 - The content was written and composed by myself. Ideas and definitions were clarified in my massage therapy education.
-- The color scheme is relaying a clean and open feeling while the blue tones give are relaxing. I did not use the hot pink or pastel pink.
+- The color scheme is relaying a clean and open feeling while the blue tones give are relaxing and trusting. 
 Followed in accordance with [Material.io color tool](https://material.io/) 
 - Icons were taken [Font Awesome](https://fontawesome.com/) 
 - Fonts were taken from [Google Fonts](https://fonts.google.com/)
@@ -144,10 +146,14 @@ The live link can be found here - https://jaredslocker21.github.io/massage-at-so
 - W3 schools for helping answering question
 - Stack overflow.
 
-## On going ideas
+## Current Ideas
 - finding out about git diff, git pull and git status really helped me see what I was looking at. 
 - rem for all fonts, make all h2 font sizes the same and all of the p one size to make everything consistent 
-- flex box and flex positioning is cool.  
+- flex box and flex positioning cool. 
+- Voice recognition research has intrigued me. 26/4
+- paper sticky notes 
+- The read me defaults with a table of contents that sticks. :)
+-  
 
 ## Additional Testing on the Iphone 4? 
 ![iphone 4 image test](/assets/images/iphone-test-images/iphone4-test-index.png)

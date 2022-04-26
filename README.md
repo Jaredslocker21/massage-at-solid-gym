@@ -14,7 +14,7 @@ Welcome to Massage at Solid gym. https://jaredslocker21.github.io/massage-at-sol
  - Users are welcome to experience a clean and easily to navigate website, Easy to access navigation bar, short and clear descriptions and an easy form to fill out.
  - Returning guests will also be able to find contact inormation and directions easily.
  - Initial concepts uses Balsamic wireframes. 
- - This site will also explain in short.  What Massage Therapy is, who benefits from it, what types of massage can they receive, prices, What to wear, how to contact us and be contacted by us.
+ - This site will also explain in short.  What Massage Therapy is, who benefits from it, what types of massage they can receive, prices, What to wear, how to contact us and be contacted by us.
  -  Original Template was created from code institute.
  
 
@@ -22,7 +22,7 @@ Welcome to Massage at Solid gym. https://jaredslocker21.github.io/massage-at-sol
 
 ## Features 
 This website features 4 sections, and 1 external contact form page that are all responsive. We will discuss each feature below.
-  - Navigation Bar and Logo in the header
+  - Navigation Bar and Logo in the header. The Logo is a link back to the main page.
   - The landing page image
   - Massage Therapy Section
   - A divider Image
@@ -36,7 +36,7 @@ This website features 4 sections, and 1 external contact form page that are all 
 
   - First seen at the top of the website is our navigation bar with 4 responsive links. Home, Massage Therapy, Treatments and Contact Page. 3 of those are redirected to their respective section on the page and the contact form is redirects to a new tab that also contains the Navigation Bar.
   
-  - The navigation bar is clear and easy to read and to understand for all users to navitgate the website. Aria Labels are also added to the links in the navigation bar to allow for better access to those in need.
+  - The navigation bar is clear, easy to read and to understand for all users to navitgate the website. Aria Labels are also added to the links in the navigation bar to allow for better access to those in need.
   
 - __Logo__
   -The logo Massage at Solid Gym, connects the Navigation bar and main page image. It is also a link to redirect the user to the first page. a
@@ -141,7 +141,7 @@ The live link can be found here - https://jaredslocker21.github.io/massage-at-so
 - Help and comradary is super important and I'd like to Credit Lauren Nicole and Mats Simonsson for inspiration and encouragement!
 - My mentor Akshat Garg for the valuable inforamtion needed.
 - W3 schools for helping answering question
-- Stack overflow but not very much.
+- Stack overflow.
 
 ## On going issues
 - sizing issues when responding with other device widths an that really is the main goal.

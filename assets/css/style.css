@@ -146,12 +146,12 @@ hr {
 
 #cover-text {
     font-size: 2vw;
-    text-shadow: 2px 3px #2b2a2a;
+    text-shadow: 2px 3px #fffcfc;
     letter-spacing: 1px;
     text-align: center;
     width: 20%;
-    background-color: rgba(83, 75, 174, .5);
-    color: rgb(255, 255, 255);
+    background-color: rgba(248, 248, 248, 0.5);
+    color: rgb(0, 0, 0);
     padding: 30px;
     border-radius: 5%;
     position: relative;

@@ -241,6 +241,14 @@ footer {
 
 /* Sign-Up here Form */
 
+/*form top image*/
+#form-top-image{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px;
+
+}
+
 
 
 input[type=text],
@@ -338,13 +346,7 @@ input[type="submit"] {
 
 }
 
-/*form top image*/
-#form-top-image{
-        width: 90%;
-        margin: 0 auto;
-        border-radius: 5px;
 
-}
 
 /* Media Queries*/
 

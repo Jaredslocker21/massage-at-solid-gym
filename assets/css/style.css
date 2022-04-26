@@ -74,7 +74,7 @@ h2 {
 #nav {
     font-size: 1.5rem;
     letter-spacing: 4px;
-    margin: 5px auto;
+    margin: 10px auto;
     text-align: center;
 }
 
@@ -84,20 +84,21 @@ h2 {
 }
 
 /* Hero Image */
-#hero-outer {
-    height: auto;
-    width: auto;
-    position: relative;
-    margin: 0 auto;
 
 
-}
+
+
 
 #hero-image {
     width: 90%;
     margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    
+    }
 
-}
+
 
 /*massaage Therapy Section */
 
@@ -245,8 +246,10 @@ footer {
 #form-top-image{
     width: 90%;
     margin: 0 auto;
-    border-radius: 5px;
-
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    
 }
 
 

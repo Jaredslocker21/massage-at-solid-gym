@@ -45,6 +45,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #2b2a2a;
+    font-size: 1rem;
 }
 
 h2 {
@@ -165,7 +166,7 @@ hr {
 
 #cover-text h2 {
     text-decoration: underline;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     
    
 
@@ -214,8 +215,7 @@ hr {
 .treatment-images {
     background-color: white;
     text-align: center;
-    height: 183px;
-    width: 275px;
+    
 
 }
 

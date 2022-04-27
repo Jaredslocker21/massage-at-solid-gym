@@ -1,20 +1,20 @@
-# Welcome too Massage at Solid Gym
+# Welcome to Massage at Solid Gym
 
 ![Responsive screenshot](/assets/images/mockupupdated.png)
 
 # MASSAGE AT SOLID GYM
 - The basis for this website is inspired by my own registered business here is southern Sweden. 
 - This website aims to inspire future clients receive treatments by their local massage therapist.
-- Our demographic base is broad but is a local setting.
+- Our demographic base is broad but it is within a local setting.
 
 
 Welcome to Massage at Solid gym. https://jaredslocker21.github.io/massage-at-solid-gym/index.html
 
 ## UX/UI 
- - Users are welcome to experience a clean and easily to navigate website. Easy to access navigation bar, short and clear descriptions and an easy form to fill out.
+ - Users are welcome to experience a clean and easy to navigate website. Easy to access navigation bar, short and clear descriptions and an easy form to fill out.
  - Returning guests will also be able to find contact inormation and directions easily.
  - Initial frame concepts uses Balsamic wireframes. 
- - This site will  explain in short.  What Massage Therapy is, who benefits from it, what types of massage they can receive, prices, what to wear, how to contact us and be contacted by us.
+ - This site will explain and answer all questions in short.  What Massage Therapy is? Who benefits from it? What types of massage they can receive? Prices? What to wear? How to contact us and be contacted by us.
  -  Original Template was created by the Code Institute.
  
 
@@ -29,8 +29,7 @@ This website features 8 sections, and 1 external contact form page that are all 
   - A divider Image and call to action
   - Treatments Section
   - Contact Page (opens in a external tab)
-  - Footer contains four social media links and a home icon/link back to the top of the page.
-  -  
+  - Footer contains four social media links and a home icon/link back to the top of the page. 
 
 ### Current Features
 
@@ -44,12 +43,11 @@ This website features 8 sections, and 1 external contact form page that are all 
   -The logo Massage at Solid Gym, connects the Navigation bar and main page image. It is also a link to redirect the user to the first page. a
 
 - __The landing page image__
-  -The landing image is a beautiful image of a body in motion that should reflect the connection between movement and massage. Emphasised by the logo. An aria-label is also added for acc
+  -The landing image is a beautiful image of a body in motion should reflect the connection between free movement and massage emphasised by the logo. An aria-label is also added for accessability. Photo Credit is not available- I am not the creator and ll credit is too them.
  
 
 - __Massage Therapy Section__
-   - The Massage Therapy Section gives a brief and clear description of what Massage Therapy is,  what to expect while leading our reader on to our next section. Treatments.
-   Emphasizing the three directions in . Sports, Occupational and Rehabilitation therapy.
+   - The Massage Therapy Section gives a brief and clear description of what Massage Therapy is. While also leading our reader on to our next Treatment section at the end of the paragraph. Emphasizing the three directions in therapies. Sports, Occupational and Rehabilitation therapy.
    
    
    
@@ -62,21 +60,23 @@ This website features 8 sections, and 1 external contact form page that are all 
 
    - This section contains 3 clear descriptions, prices and more information about what to expect. 
    - The images underlining each description gives the visitor an understanding of why we need massage when pain persists. 
-   photo credit: open licensed Adobe stock photos.
+     All photos in this section are Open licensed Adobe Stock photos.
 
 
 - __Contact Page__
 	
-	- The link opens up in a new tab. It gives our visitors a simple and clear form to fillout.  Our clients have very specific needs and all treatments are customized based on the persons health and medical history. All treatments are booked
+	- The link opens up in a new tab. It gives our visitors the same easy to Navigate header and Log. An image that reflects coomon injuries people have while needing a MAssage Therapist. A simple and clear form to fillout. **Our clients have very specific needs and all treatments are customized based on the persons health and medical history. All treatments are booked
 	personally with your Therapist. 
 	- Sign- Up here at the top has an input that is clearly labeled and the form is functional. Each input has an aria-label for accessability.
 	- Contact-Us closer to the bottom has an E-mail address, Phone numner an address and a map with that also links to an external larger map for precise directions. 
+  - Photo is an open licensed Adobe Stock Photo.
 
 - __Footer__
   
   - The footer contains 3 social media links that will open a new tab and a home tab that directs you back to the Head of the site.
   - These links create a good social presence to the public.
   - The footer is maintained in the contact page 
+  - All link Icons are taken from Font awesome.
 
 ### Content 
 
@@ -138,7 +138,7 @@ The live link can be found here - https://jaredslocker21.github.io/massage-at-so
 
 ## Credits 
 
-- code: Some of the code, language and structure used are examples takes from the love running walkthrough project and the coders coffee.
+- Code: Some of the code, language, layout, and structure of the webisite are examples taken from the love running walkthrough project and the coders coffee.
 - Photos: credits go to open licensed Adobe stock. https://stock.adobe.com/
 - The submit button was inpired by:   https://freefrontend.com/css-submit-buttons/
 - Help and comradary is super important and I'd like to Credit Lauren Nicole and Mats Simonsson for inspiration and encouragement!

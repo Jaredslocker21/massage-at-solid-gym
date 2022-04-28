@@ -16,7 +16,7 @@ Welcome to Massage at Solid gym. https://jaredslocker21.github.io/massage-at-sol
 - Our demographic base is broad but it is within a local setting.
   * Anyone
   * Athletes
-  * Any occupation that has repeditive motion and work.
+  * Anyone suffering from occupational injuries that have repeditive motion and work.
   * Clients that seek post surgery Rehabilitation.
  
 

@@ -183,8 +183,11 @@ Followed in accordance with [Material.io color tool](https://material.io/)
  
 ### Unfixed Bugs
  
-24/4 As of now just some media queries before I submit. 
-26/4 Ongoing MQ issues had a response by a fellow peer while reading my readme file. And help ensued. Yes.
+- 24/4 As of now just some media queries before I submit. 
+- 26/4 Ongoing MQ issues had a response by a fellow peer while reading my readme file. And help ensued. Yes.
+- 28/4 Sizing on Treatment photos shows even margins but not 100% of the time. Mobile looks fine.
+
+![treatment image](/assets/images/treatmentslineupresize.png)
 
 ## Deployment
 

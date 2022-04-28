@@ -35,18 +35,18 @@ Welcome to Massage at Solid gym. https://jaredslocker21.github.io/massage-at-sol
    * What to wear? 
    * How to contact us and be contacted by us.
 
-   - As a first time user:
+  - As a first time user:
     * I could navigate the website easily. 
     * Fill in the Form
     * Find information easily
 
-    - As a returning user:
+  - As a returning user:
      * I could find the directions and map easily.
      * For the future I will add a discount section and updates. 
  
 
  ### Users Interface
- - As a UI design my goal is to offer an attractive, clean and trustworthy website.
+ - As a UI design my goal is to offer an attractive, interactive, clean and trustworthy website.
    * Responds well to both mobile and laptop viewing.
  - Simple to use and understand while, not too much content.
  - Initial frame concepts uses Balsamic wireframes. 

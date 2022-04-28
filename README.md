@@ -217,6 +217,7 @@ The live link can be found here - https://jaredslocker21.github.io/massage-at-so
 - Voice recognition research has intrigued me. 26/4
 - paper sticky notes 
 - The read me defaults with a table of contents that sticks. :)
+- I did clone to VS and Git desktop.
 
 
 

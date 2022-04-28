@@ -3,19 +3,55 @@
 ![Responsive screenshot](/assets/images/mockupupdated.png)
 
 # MASSAGE AT SOLID GYM
-- The basis for this website is inspired by my own registered business here is southern Sweden. 
-- This website aims to inspire future clients receive treatments by their local massage therapist.
-- Our demographic base is broad but it is within a local setting.
-
 
 Welcome to Massage at Solid gym. https://jaredslocker21.github.io/massage-at-solid-gym/index.html
+### Purpose
+- The basis for this website is inspired by my own registered business here is southern Sweden.
+
+### Goal
+- To attract a new client base.
+- Inform our visitors of What massage Therapy is, and where to find us.
+
+### Demographic
+- Our demographic base is broad but it is within a local setting.
+  * Anyone
+  * Athletes
+  * Any occupation that has repeditive motion and work.
+  * Clients that seek post surgery Rehabilitation.
+ 
 
 ## UX/UI 
- - Users are welcome to experience a clean and easy to navigate website. Easy to access navigation bar, short and clear descriptions and an easy form to fill out.
- - Returning guests will also be able to find contact inormation and directions easily.
+
+### Users Experience
+ - Users are welcome to experience a friction free, clean and easy to navigate website.
+ - Easy to access navigation bar.
+ - Short and clear descriptions and an easy form to fill out.
+ - Returning clients will also be able to find contact inormation and directions easily.
+ - This site will explain and answer all questions in short. 
+   * What Massage Therapy is? 
+   * Who benefits from it? 
+   * What types of massage they can receive? 
+   * Prices? 
+   * What to wear? 
+   * How to contact us and be contacted by us.
+
+   - As a first time user:
+    * I could navigate the website easily. 
+    * Fill in the Form
+    * Find information easily
+
+    - As a returning user:
+     * I could find the directions and map easily.
+     * For the future I will add a discount section and updates. 
+ 
+
+ ### Users Interface
+ - As a UI design my goal is to offer an attractive, clean and trustworthy website.
+   * Responds well to both mobile and laptop viewing.
+ - Simple to use and understand while, not too much content.
  - Initial frame concepts uses Balsamic wireframes. 
- - This site will explain and answer all questions in short.  What Massage Therapy is? Who benefits from it? What types of massage they can receive? Prices? What to wear? How to contact us and be contacted by us.
- -  Original Template was created by the Code Institute.
+ - Original Template was created by the Code Institute.
+ 
  
 
  ![Balasmic Wireframs](/assets/images/baslamic-wire-frame-resize.png) ![Balasmic Wireframs](/assets/images/wireframe2-resized.png)
@@ -98,10 +134,32 @@ Followed in accordance with [Material.io color tool](https://material.io/)
   
 ## Testing
 
-  - This website has passed all tests through Google Chromes Dev. Tool, 'Lighthouse'. It is responsive and shows promise through.
-  techsini.com that is a multi device website mock-up generator. 
-  - I have tested the site on Microsoft Edge and the current Apple IOS, IPhone XR, Iphone Pro 12, Pixel 5, Samsung Galaxy, Ipod air, Ipod Mini, Sufrace Duo, Galaxy Fold, Samsung Galaxy A51/71,
-    Nest Hub, Nest Hub Max 
+  - This website has passed all tests through Google Chromes Dev. Tool, 'Lighthouse'. It is responsive and shows promise.
+   
+  - I have tested the site on 
+   * Microsoft Edge 
+   * MAc OS
+   * IPhone XR 
+   * Iphone Pro 12 
+   * Pixel 5 
+   * Samsung Galaxy 
+   * Ipod air 
+   * Ipod Mini 
+   * Sufrace Duo
+   * Galaxy Fold 
+   * Samsung Galaxy A51/71
+   * Nest Hub
+   * Nest Hub Max 
+   * Mozilla Firefox.
+
+  ## Additional Testing on the Iphone 4? 
+![iphone 4 image test](/assets/images/iphone-test-images/iphone4-test-index.png)
+![iphone 4 image test](/assets/images/iphone-test-images/iphone4-test-treatment.png)
+![iphone 4 image test](/assets/images/iphone-test-images/iphone4-test-contact.png)
+![iphone 4 image test](/assets/images/iphone-test-images/iphone4-test-form.png)
+
+- Google Chrome Dev. Tools Lighthouse Results
+
 
 ![lighthouse results](/assets/images/lighthouse%20performance.png)
 
@@ -118,9 +176,10 @@ Followed in accordance with [Material.io color tool](https://material.io/)
   ![screenshot of css noerrors](/assets/images/css-validator-resized.png)
 
 ### Technologies Used
-- Github and Gitpod Development Environments. 
+- Github and Gitpod Cloud Development Environments. 
 - Google Chrome Dev Tools.
 - Balsamic Wire Frames
+- techsini.com that is a multi device website mock-up generator.
  
 ### Unfixed Bugs
  
@@ -138,13 +197,14 @@ The live link can be found here - https://jaredslocker21.github.io/massage-at-so
 
 ## Credits 
 
-- Code: Some of the code, language, layout, and structure of the webisite are examples taken from the love running walkthrough project and the coders coffee.
+- Code: Some of the code language, layout, and structure of the webisite are examples taken from the love running walkthrough project and the coders coffee.
 - Photos: credits go to open licensed Adobe stock. https://stock.adobe.com/
 - The submit button was inpired by:   https://freefrontend.com/css-submit-buttons/
 - Help and comradary is super important and I'd like to Credit Lauren Nicole and Mats Simonsson for inspiration and encouragement!
-- My mentor Akshat Garg for the valuable inforamtion needed.
-- W3 schools for helping answering question
+- My mentor Akshat Garg for the valuable information needed.
+- W3 schools for helping answering question.
 - Stack overflow.
+- Code Institute for giving me the opportunity to grow.
 
 ## Current Ideas
 - finding out about git diff, git pull and git status really helped me see what I was looking at. 
@@ -153,15 +213,6 @@ The live link can be found here - https://jaredslocker21.github.io/massage-at-so
 - Voice recognition research has intrigued me. 26/4
 - paper sticky notes 
 - The read me defaults with a table of contents that sticks. :)
--  
-
-## Additional Testing on the Iphone 4? 
-![iphone 4 image test](/assets/images/iphone-test-images/iphone4-test-index.png)
-![iphone 4 image test](/assets/images/iphone-test-images/iphone4-test-treatment.png)
-![iphone 4 image test](/assets/images/iphone-test-images/iphone4-test-contact.png)
-![iphone 4 image test](/assets/images/iphone-test-images/iphone4-test-form.png)
-
-
 
 
 

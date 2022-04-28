@@ -161,7 +161,7 @@ Followed in accordance with [Material.io color tool](https://material.io/)
 - Google Chrome Dev. Tools Lighthouse Results
 
 
-![lighthouse results](/assets/images/lighthouse%20performance.png)
+![lighthouse results](/assets/images/lighthouse-performance.png)
 
 ### Validator Testing 
 
@@ -203,6 +203,7 @@ The live link can be found here - https://jaredslocker21.github.io/massage-at-so
 - Code: Some of the code language, layout, and structure of the webisite are examples taken from the love running walkthrough project and the coders coffee.
 - Photos: credits go to open licensed Adobe stock. https://stock.adobe.com/
 - The submit button was inpired by:   https://freefrontend.com/css-submit-buttons/
+- Sign-Up form was inspired by the Love running walk through and http://w3schools.com 
 - Help and comradary is super important and I'd like to Credit Lauren Nicole and Mats Simonsson for inspiration and encouragement!
 - My mentor Akshat Garg for the valuable information needed.
 - W3 schools for helping answering question.

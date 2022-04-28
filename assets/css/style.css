@@ -24,7 +24,6 @@ img {
     max-width: 100%;
     max-height: 100%;
     display: block;
-
 }
 
 body {
@@ -36,7 +35,6 @@ body {
 /*heading and logo*/
 
 header {
-    height: 200px;
     width: 100%;
 }
 
@@ -55,16 +53,15 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #2b2a2a;
-    text-align: center;
-    text-decoration: none;
 
+    text-decoration: none;
 }
 
 #logo {
     text-align: center;
     font-size: 3rem;
     padding: 10px;
-    margin: 10px
+    margin: 10px;
 }
 
 .active {
@@ -86,26 +83,19 @@ h2 {
 
 /* Hero Image */
 
-
-
-
-
 .hero-image {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     max-width: 100%;
     max-height: 100%;
     display: block;
-
 }
-
-
 
 /*massaage Therapy Section */
 
 #massage-therapy {
     margin: 0 auto;
-    padding: 5px;
+    padding: 40px 0;
     width: 90%;
     text-align: center;
 }
@@ -141,8 +131,6 @@ hr {
     overflow: hidden;
     background-color: white;
     display: flex;
-
-
 }
 
 #cover-text {
@@ -152,7 +140,7 @@ hr {
     letter-spacing: 1px;
     text-align: center;
     width: 20%;
-    background-color: rgb(255, 255, 255,.8);
+    background-color: rgb(255, 255, 255, 0.8);
     color: rgb(0, 0, 0);
     padding: 20px;
     border-radius: 5%;
@@ -160,18 +148,12 @@ hr {
     align-self: flex-start;
     top: 110px;
     left: 20px;
-
-
 }
 
 #cover-text h2 {
     text-decoration: underline;
-    font-size: 1.0rem;
-    
-   
-
-
-
+    font-size: 1rem;
+    margin-bottom: 10px;
 }
 
 /*treatment section*/
@@ -182,7 +164,6 @@ hr {
     text-align: center;
     margin: 0 auto;
     padding: 1%;
-
 }
 
 #treatments {
@@ -211,12 +192,10 @@ hr {
     margin-left: 10px;
 }
 
-
 .treatment-images {
     background-color: white;
     text-align: center;
-    
-
+    margin-top: 20px;
 }
 
 /*footer*/
@@ -228,7 +207,8 @@ footer {
 #copyright {
     color: aliceblue;
     font-family: "Josefin sans", Arial, Helvetica, sans-serif;
-
+    text-align: center;
+    padding: 20px;
 }
 
 /*social-network-icons*/
@@ -239,16 +219,20 @@ footer {
 
 .social-network-icons li {
     display: inline;
+    list-style: none;
+}
 
-
+.social-network-icons li:hover {
+    list-style: none;
+    opacity: 0.8;
+    text-decoration: none;
+    border-bottom: 0;
 }
 
 .social-network-icons i {
     font-size: 2rem;
     color: #ffff;
     padding: 20px;
-
-
 }
 
 /* Sign-Up here Form */
@@ -256,17 +240,14 @@ footer {
 /*form top image*/
 #form-top-image {
     width: 90%;
-    
+
     margin: 0 auto;
     max-width: 100%;
     max-height: 100%;
     display: block;
-
 }
 
-
-
-input[type=text],
+input[type="text"],
 .input-field {
     width: 100%;
     max-width: 100%;
@@ -277,7 +258,6 @@ input[type=text],
     box-sizing: border-box;
     box-shadow: 5px 10px #888888;
     display: block;
-
 }
 
 #form-container {
@@ -288,7 +268,7 @@ input[type=text],
     margin-bottom: 20px;
     box-shadow: 5px 10px #888888;
     padding: 20px;
-
+    border: 1px solid #888888;
 }
 
 .contact-form>h2 {
@@ -321,9 +301,8 @@ input[type=text],
 }
 
 input[type="submit"] {
-    width: 150px;
-    height: 30px;
-    border: none;
+    padding: 12px 40px;
+    margin-top: 10px;
     outline: none;
     color: #2b2a2a;
     font-size: 15px;
@@ -331,9 +310,8 @@ input[type="submit"] {
     text-align: center;
     position: relative;
     overflow: hidden;
-    cursor: progress;
+    cursor: pointer;
     box-shadow: 5px 10px #888888;
-
 }
 
 /* map*/
@@ -346,9 +324,7 @@ input[type="submit"] {
 }
 
 #gmap {
-    width: 450px;
-    height: 150px;
-
+    width: 100%;
 
 }
 
@@ -356,19 +332,15 @@ input[type="submit"] {
     overflow: hidden;
     background: none !important;
     height: 150px;
-    width: 450px;
+    width: 100%;
     margin: auto;
-
 }
-
-
 
 /* Media Queries for screens under 1200px*/
 
 @media screen and (max-width: 1200px) {
-
     #divider {
-        height: 300px
+        height: 300px;
     }
 }
 
@@ -377,11 +349,15 @@ input[type="submit"] {
 @media screen and (max-width: 950px) {
     #nav {
         clear: left;
-
     }
 
     #divider {
         height: 300px;
+    }
+
+    #form-container {
+        padding: 10px;
+        width: 80%;
     }
 
 }
@@ -395,7 +371,6 @@ input[type="submit"] {
         margin: 5px;
 
         font-size: 2rem;
-
     }
 
     #treatments {
@@ -404,13 +379,12 @@ input[type="submit"] {
         justify-content: center;
         flex-direction: column;
         margin: 10px;
-
     }
-
 
     #divider {
         height: 325px;
     }
+
 }
 
 /* Media Queries for screens under 600px*/
@@ -419,7 +393,6 @@ input[type="submit"] {
     #form-container {
         padding: 10px;
         width: 90%;
-
     }
 
     #logo {
@@ -427,39 +400,33 @@ input[type="submit"] {
         padding: 20px;
         margin-top: 5px;
         font-size: 1.5rem;
-
-
     }
 
     #cover-text {
         align-self: center;
         top: 10px;
-
-
-
     }
 
     #divider {
         height: 325px;
     }
 
+    .treatment-images {
+        margin: auto;
+    }
 }
 
 /* Media Queries for screens under 430px*/
 
-
 @media screen and (max-width: 430px) {
     #form-container {
-
         padding: 10px;
         width: 90%;
-
     }
 
     #divider {
         height: 150px;
     }
-
 
     #logo {
         clear: both;
@@ -467,7 +434,6 @@ input[type="submit"] {
         margin-top: 5px;
         font-size: 1.5rem;
         float: left;
-
     }
 
     #cover-text {
@@ -475,35 +441,15 @@ input[type="submit"] {
     }
 
     #nav {
-        font-size: 1.0rem;
+        font-size: 1rem;
     }
+
     .treatment-images {
         width: 80vw;
         text-align: center;
-
-
     }
+
     #treatments {
         padding: 20px 5px 20px 5px;
-    }
-
-
-}
-
-
-
-
-
-@media screen and (max-width: 1650px) {
-    .gmap_canvas {
-        width: 200px;
-
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .gmap_canvas {
-        width: 150px;
-
     }
 }

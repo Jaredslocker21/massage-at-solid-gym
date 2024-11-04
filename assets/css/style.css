@@ -453,3 +453,18 @@ input[type="submit"] {
         padding: 20px 5px 20px 5px;
     }
 }
+
+/* Custom styles for the Google Form iframe */
+.google-form-container {
+    text-align: center; /* Centers the form */
+    margin-top: 20px;    /* Adds space above the iframe */
+    margin-bottom: 40px; /* Adds space below the iframe */
+}
+
+/* Make sure the iframe is responsive and fits well */
+.google-form-container iframe {
+    width: 100%;    /* Make it responsive */
+    max-width: 640px; /* Limit the max width */
+    height: 381px;   /* Adjust height if necessary */
+    border: none;    /* Remove default border */
+}

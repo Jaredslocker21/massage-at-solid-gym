@@ -27,7 +27,7 @@ img {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 400;
     color: #3a3a3a;
 }
@@ -107,7 +107,7 @@ h2 {
 }
 
 #massage-therapy>p {
-    font-family: "Cardo", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 1.2rem;
 }
 
@@ -198,7 +198,7 @@ hr {
 
 .therapy-title {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
 
 }
 
@@ -242,7 +242,7 @@ hr {
 .treatment-images {
     background-color: white;
     text-align: center;
-    margin-top: 20px;
+    margin: 20px;
 }
 
 /*footer*/

@@ -48,11 +48,11 @@ h1 {
 
 h2 {
     font-family: "Josefin Sans", sans-serif;
-    font-size: 1rem;
+    font-size: 2rem;
     text-decoration: underline;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #2b2a2a;
+    color: #ffff;
 
     text-decoration: none;
 }
@@ -124,36 +124,74 @@ hr {
     background: url("../images/resizedmalemassage.jpeg") no-repeat center center;
     height: 480px;
     width: 100%;
-    max-width: 100%;
-    max-height: 100%;
-    background-size: 100%;
+    background-size: cover; /* Ensure the background image covers the section */
     position: relative;
-    overflow: hidden;
-    background-color: white;
     display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    transition: transform 0.5s ease; /* Add transition for smooth effect */
 }
 
 #cover-text {
     font-family: "Josefin Sans", sans-serif;
-    font-size: 2vw;
-    font-weight: 800;
+    font-size: 1.5rem; /* Increased font size for better visibility */
+    font-weight: 600;
     letter-spacing: 1px;
     text-align: center;
-    width: 20%;
-    background-color: rgb(255, 255, 255, 0.8);
-    color: rgb(0, 0, 0);
+    width: 80%; /* Set a width that allows the text to breathe */
+    max-width: 600px; /* Limit max width for larger screens */
+    background-color: rgba(0, 0, 0, 0.7); /* Dark transparent background */
+    color: rgb(255, 255, 255); /* White text color for contrast */
     padding: 20px;
-    border-radius: 5%;
+    border-radius: 10px; /* Slightly rounded corners */
     position: relative;
-    align-self: flex-start;
-    top: 110px;
-    left: 20px;
+    overflow: hidden; /* Hide overflow */
+    transition: opacity 0.5s ease; /* Add transition for opacity */
 }
 
+.additional-info {
+    display: none; /* Hide additional info by default */
+}
+
+#cover-text:hover {
+    opacity: 50; /* Fade out the cover text */
+}
+
+#cover-text:hover .additional-info {
+    display: block; /* Show additional info on hover */
+    opacity: 1; /* Ensure the additional info is fully visible */
+    animation: fadeIn .5s ease-in; /* Optional: Add a fade-in effect */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Ensure h2 is visible and styled correctly */
 #cover-text h2 {
-    text-decoration: underline;
-    font-size: 1rem;
     margin-bottom: 10px;
+}
+
+/* Optionally adjust the hover effect for the h2 */
+#cover-text:hover h2 {
+    display: none; /* Hide the h2 on hover */
+}
+
+
+#cover-text ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+#cover-text ul li {
+    padding: 5px;
+    font-size: .75rem; /* Adjust size for list items */
+    margin: 5px 0; /* Space out list items */
 }
 
 /*treatment section*/
@@ -467,4 +505,15 @@ input[type="submit"] {
     max-width: 640px; /* Limit the max width */
     height: 381px;   /* Adjust height if necessary */
     border: none;    /* Remove default border */
+}
+
+@media screen and (max-width: 600px) {
+    #cover-text {
+        font-size: 1.2rem; /* Smaller font size for smaller screens */
+        width: 90%; /* Make it wider on smaller screens */
+    }
+
+    #cover-text h2 {
+        font-size: 1.5rem; /* Smaller heading */
+    }
 }

@@ -27,7 +27,7 @@ img {
 }
 
 body {
-    font-family: Cardo, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #3a3a3a;
 }
@@ -52,8 +52,8 @@ h2 {
     text-decoration: underline;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #ffff;
-
+    color: #ffffff;
+    text-align: center;
     text-decoration: none;
 }
 
@@ -196,12 +196,21 @@ hr {
 
 /*treatment section*/
 
+.therapy-title {
+    text-align: center;
+    font-size: 2rem;
+
+}
+
 #treatments-header {
-    width: 90%;
+    width: 100%;
     font-size: 1.5rem;
     text-align: center;
     margin: 0 auto;
     padding: 1%;
+    color: rgb(0, 0, 0); /* White text color for contrast */
+    /*transition: opacity 0.5s ease; /* Add transition for opacity */
+   /* background-color: rgba(0, 0, 0, 0.7); /* Dark transparent background */
 }
 
 #treatments {

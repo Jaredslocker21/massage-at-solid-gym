@@ -220,10 +220,17 @@ hr {
     text-align: left;
     font-family: "Cardo", sans-serif;
     padding: 20px;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
 }
 
 .treatments-item {
     margin: 20px;
+    flex: 1 1 30%; /* Allow items to take up 30% of available space and wrap */
+    min-width: 250px; /* Minimum width to maintain consistency */
+    max-width: 33%; /* Max width for larger screens */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .treatments-item>p {
@@ -235,8 +242,7 @@ hr {
 }
 
 .treatments-item ul {
-    padding: 5px;
-    margin-left: 10px;
+    font-size: 1rem;
 }
 
 .treatment-images {
@@ -501,6 +507,20 @@ input[type="submit"] {
     }
 }
 
+/* For responsiveness, at screen sizes below 850px, stack the images vertically */
+@media screen and (max-width: 850px) {
+    #treatments {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .treatments-item {
+        max-width: 100%; /* Ensure full width for smaller screens */
+        margin: 10px 0;
+    }
+}
+
 /* Custom styles for the Google Form iframe */
 .google-form-container {
     text-align: center; /* Centers the form */
@@ -526,3 +546,29 @@ input[type="submit"] {
         font-size: 1.5rem; /* Smaller heading */
     }
 }
+.treatments-item .therapy-title {
+    white-space: nowrap; /* Prevent wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Optional: Adds ellipsis for overflow */
+    font-size: 2rem; /* Default font size for larger screens */
+    text-align: center;
+    margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+    .treatments-item .therapy-title {
+        font-size: 1.75rem; /* Slightly smaller font size on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .treatments-item .therapy-title {
+        font-size: 1.5rem; /* Further reduce font size on small screens */
+    }
+}
+
+@media (max-width: 320px) {
+    .treatments-item .therapy-title {
+        font-size: 1.25rem; /* Smallest font size for very small screens */
+    }
+}
+

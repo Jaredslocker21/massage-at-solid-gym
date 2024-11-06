@@ -16,9 +16,31 @@ a {
     color: #2b2a2a;
 }
 
-a:hover {
-    border-bottom: 2px solid black;
+/*Navigation Menu*/
+#nav {
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    margin: 10px auto;
+    text-align: center;
+    transition: color 0.3s ease, transform 0.5s ease-in-out;
 }
+
+#nav li {
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+}
+
+#nav a {
+    text-decoration: none; /* Prevents underline */
+    
+}
+
+#nav :hover {
+    color: #0051ff;  /* Change text color on hover */
+    transform: scale(1.1); /* Increase size by 10% */
+}
+
 
 img {
     max-width: 100%;
@@ -68,20 +90,6 @@ h2 {
 .active {
     border-bottom: 2px solid #1a237e;
 }
-
-/*Navigation Menu*/
-#nav {
-    font-size: 1.5rem;
-    letter-spacing: 4px;
-    margin: 10px auto;
-    text-align: center;
-}
-
-#nav li {
-    display: inline-block;
-    padding: 20px;
-}
-
 /* Hero Image */
 
 .hero-image {
@@ -208,7 +216,7 @@ hr {
 
 #cover-text ul li {
     padding: 5px;
-    font-size: .75rem; /* Adjust size for list items */
+    font-size: 1rem; /* Adjust size for list items */
     margin: 5px 0; /* Space out list items */
 }
 
@@ -218,6 +226,14 @@ hr {
     text-align: center;
     font-size: 3rem;
 
+}
+.treatments-item .therapy-title {
+    white-space: nowrap; /* Prevent wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Optional: Adds ellipsis for overflow */
+    font-size: 2rem; /* Default font size for larger screens */
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 #treatments-header {
@@ -306,6 +322,7 @@ footer {
 .social-network-icons li {
     display: inline;
     list-style: none;
+    transition: transform 1600ms ease-in-out;
 }
 
 .social-network-icons li:hover {
@@ -313,14 +330,16 @@ footer {
     opacity: 0.8;
     text-decoration: none;
     border-bottom: 0;
+    transform: scale(1.1); /* Slightly zoom in */
 }
 
 .social-network-icons i {
-    font-size: 2rem;
+    font-size: 1rem;
     color: #ffff;
     padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
 }
-
 /* Sign-Up here Form */
 
 /*form top image*/
@@ -332,7 +351,7 @@ footer {
     display: block;
 }
 
-input[type="text"],
+/*input[type="text"],
 .input-field {
     width: 100%;
     max-width: 100%;
@@ -343,7 +362,7 @@ input[type="text"],
     box-sizing: border-box;
     box-shadow: 5px 10px #888888;
     display: block;
-}
+}*/
 
 #form-container {
     width: 50%;
@@ -371,7 +390,7 @@ input[type="text"],
     text-align: center;
 }
 
-.input-field:active {
+/*.input-field:active {
     background-color: #534bae;
     color: black;
 }
@@ -388,7 +407,7 @@ input[type="submit"] {
     overflow: hidden;
     cursor: pointer;
     box-shadow: 5px 10px #888888;
-}
+}*/
 
 /* map*/
 
@@ -569,14 +588,7 @@ input[type="submit"] {
         font-size: 1.5rem; /* Smaller heading */
     }
 }
-.treatments-item .therapy-title {
-    white-space: nowrap; /* Prevent wrapping */
-    overflow: hidden;
-    text-overflow: ellipsis; /* Optional: Adds ellipsis for overflow */
-    font-size: 2rem; /* Default font size for larger screens */
-    text-align: center;
-    margin-bottom: 10px;
-}
+
 @media (max-width: 768px) {
     .treatments-item .therapy-title {
         font-size: 1.75rem; /* Slightly smaller font size on medium screens */

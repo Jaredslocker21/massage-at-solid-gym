@@ -172,7 +172,7 @@ hr {
     border-radius: 5px; /* Slightly rounded corners */
     position: relative;
     overflow: hidden; /* Hide overflow */
-    transition: opacity 0.5s ease; /* Add transition for opacity */
+    transition: opacity 0.5s ease-in-out; /* Add transition for opacity */
 }
 
 .additional-info {
@@ -186,7 +186,7 @@ hr {
 #cover-text:hover .additional-info {
     display: block; /* Show additional info on hover */
     opacity: 1; /* Ensure the additional info is fully visible */
-    animation: fadeIn .5s ease-in; /* Optional: Add a fade-in effect */
+    animation: fadeIn 1s ease-in-out; /* Optional: Add a fade-in effect */
 }
 
 @keyframes fadeIn {
@@ -367,12 +367,12 @@ footer {
 #form-container {
     width: 50%;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 90px;
     border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    padding: 20px;
+    padding: 60px;
     
 }
 
@@ -388,6 +388,49 @@ footer {
     font-family: Cardo, sans-serif;
     font-size: 1.3rem;
     text-align: center;
+}
+/* Styling for the contact info section */
+.contact-info {
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    width: 100%;
+    max-width: 600px; /* Limit width for better layout */
+    margin: 20px auto; /* Center the section */
+    text-align: center;
+}
+
+.contact-info h4 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    letter-spacing: 2px; /* Space out letters for a clean look */
+}
+
+.contact-info ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info ul li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555; /* Darker text color for readability */
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #0051ff; /* Blue color for email link */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease;
+}
+
+.contact-info :hover {
+    color: #0033cc; /* Darker blue on hover */
 }
 
 /*.input-field:active {
@@ -429,6 +472,20 @@ input[type="submit"] {
     height: 150px;
     width: 100%;
     margin: auto;
+}
+/* Custom styles for the Google Form iframe */
+.google-form-container {
+    text-align: center; /* Centers the form */
+    margin-top: 20px;    /* Adds space above the iframe */
+    margin-bottom: 5px; /* Adds space below the iframe */
+}
+
+/* Make sure the iframe is responsive and fits well */
+.google-form-container iframe {
+    width: 100%;    /* Make it responsive */
+    max-width: 640px; /* Limit the max width */
+    height: 1165px;   /* Adjust height if necessary */
+    border: none;    /* Remove default border */
 }
 
 /* Media Queries for screens under 1200px*/
@@ -563,21 +620,6 @@ input[type="submit"] {
     }
 }
 
-/* Custom styles for the Google Form iframe */
-.google-form-container {
-    text-align: center; /* Centers the form */
-    margin-top: 20px;    /* Adds space above the iframe */
-    margin-bottom: 40px; /* Adds space below the iframe */
-}
-
-/* Make sure the iframe is responsive and fits well */
-.google-form-container iframe {
-    width: 100%;    /* Make it responsive */
-    max-width: 640px; /* Limit the max width */
-    height: 381px;   /* Adjust height if necessary */
-    border: none;    /* Remove default border */
-}
-
 @media screen and (max-width: 600px) {
     #cover-text {
         font-size: 1.2rem; /* Smaller font size for smaller screens */
@@ -607,3 +649,37 @@ input[type="submit"] {
     }
 }
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contact-info {
+        padding: 15px; /* Reduce padding for smaller screens */
+        max-width: 90%; /* Allow more space on smaller screens */
+    }
+
+    .contact-info h4 {
+        font-size: 1.4rem; /* Slightly smaller heading */
+    }
+
+    .contact-info ul li {
+        font-size: 1rem; /* Slightly smaller text for readability */
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-info {
+        padding: 10px; /* Further reduce padding for very small screens */
+        max-width: 95%; /* Max width of 95% on very small screens */
+    }
+
+    .contact-info h4 {
+        font-size: 1.2rem; /* Make heading even smaller */
+    }
+
+    .contact-info ul li {
+        font-size: 0.9rem; /* Reduce list item font size */
+    }
+
+    .contact-info a {
+        font-size: 0.9rem; /* Make the email link slightly smaller */
+    }
+}

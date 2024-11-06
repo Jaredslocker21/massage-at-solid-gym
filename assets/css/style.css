@@ -24,6 +24,7 @@ img {
     max-width: 100%;
     max-height: 100%;
     display: block;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 body {
@@ -89,6 +90,7 @@ h2 {
     max-width: 100%;
     max-height: 100%;
     display: block;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 /*massaage Therapy Section */
@@ -122,6 +124,7 @@ hr {
 
 #divider {
     background: url("../images/resizedmalemassage.jpeg") no-repeat center center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     height: 480px;
     width: 100%;
     background-size: cover; /* Ensure the background image covers the section */
@@ -206,7 +209,7 @@ hr {
     width: 100%;
     font-size: 3rem;
     text-align: center;
-    margin: 0 auto;
+    margin-top: 60px;
     padding: 1%;
     color: rgb(0, 0, 0); /* White text color for contrast */
 }
@@ -246,11 +249,26 @@ hr {
 }
 
 .treatment-images {
-    background-color: white;
-    text-align: center;
-    margin: 20px;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    background-color: #a24949;
+    width: 275px !important;
+    height: 175px !important;
 }
 
+.treatment-images img {
+    margin-top: 15px;
+    display: block !important;
+    width: 275px !important;
+    height: 275px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+    object-fit: fit;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 /*footer*/
 footer {
     width: 100%;
@@ -465,7 +483,7 @@ input[type="submit"] {
     }
 
     .treatment-images {
-        margin: auto;
+        margin-top: 25px;
     }
 }
 

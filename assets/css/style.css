@@ -90,7 +90,12 @@ h2 {
     max-width: 100%;
     max-height: 100%;
     display: block;
+    transition: transform 1600ms ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.hero-image:hover {
+    transform: scale(1.1); /* Slightly zoom in */
 }
 
 /*massaage Therapy Section */
@@ -133,6 +138,16 @@ hr {
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
     transition: transform 0.5s ease; /* Add transition for smooth effect */
+}
+
+#additional-information {
+    height: 300px;
+    color: black;
+    font-size: 1.6rem;
+}
+
+#additional-information:active {
+    color: black;
 }
 
 #cover-text {
@@ -279,7 +294,7 @@ footer {
     color: aliceblue;
     font-family: "Josefin sans", Arial, Helvetica, sans-serif;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 /*social-network-icons*/
@@ -311,7 +326,6 @@ footer {
 /*form top image*/
 #form-top-image {
     width: 90%;
-
     margin: 0 auto;
     max-width: 100%;
     max-height: 100%;
@@ -334,12 +348,13 @@ input[type="text"],
 #form-container {
     width: 50%;
     margin: 0 auto;
+    margin-top: 20px;
     border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
-    box-shadow: 5px 10px #888888;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     padding: 20px;
-    border: 1px solid #888888;
+    
 }
 
 .contact-form>h2 {
@@ -358,16 +373,6 @@ input[type="text"],
 
 .input-field:active {
     background-color: #534bae;
-    color: black;
-}
-
-#additional-information {
-    height: 300px;
-    color: black;
-    font-size: 1.6rem;
-}
-
-#additional-information:active {
     color: black;
 }
 

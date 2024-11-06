@@ -140,10 +140,10 @@ hr {
     text-align: center;
     width: 80%; /* Set a width that allows the text to breathe */
     max-width: 600px; /* Limit max width for larger screens */
-    background-color: rgba(0, 0, 0, 0.7); /* Dark transparent background */
+    background-color: rgba(0, 0, 0, 0.5); /* Dark transparent background */
     color: rgb(255, 255, 255); /* White text color for contrast */
     padding: 20px;
-    border-radius: 10px; /* Slightly rounded corners */
+    border-radius: 5px; /* Slightly rounded corners */
     position: relative;
     overflow: hidden; /* Hide overflow */
     transition: opacity 0.5s ease; /* Add transition for opacity */
@@ -154,7 +154,7 @@ hr {
 }
 
 #cover-text:hover {
-    opacity: 50; /* Fade out the cover text */
+    opacity: 70; /* Fade out the cover text */
 }
 
 #cover-text:hover .additional-info {
@@ -204,13 +204,11 @@ hr {
 
 #treatments-header {
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 3rem;
     text-align: center;
     margin: 0 auto;
     padding: 1%;
     color: rgb(0, 0, 0); /* White text color for contrast */
-    /*transition: opacity 0.5s ease; /* Add transition for opacity */
-   /* background-color: rgba(0, 0, 0, 0.7); /* Dark transparent background */
 }
 
 #treatments {
@@ -221,6 +219,7 @@ hr {
     font-family: "Cardo", sans-serif;
     padding: 20px;
     flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    
 }
 
 .treatments-item {
@@ -231,6 +230,7 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 
 .treatments-item>p {
@@ -517,7 +517,7 @@ input[type="submit"] {
 
     .treatments-item {
         max-width: 100%; /* Ensure full width for smaller screens */
-        margin: 10px 0;
+        margin: 10px 0 4 2;
     }
 }
 

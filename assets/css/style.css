@@ -16,30 +16,56 @@ a {
     color: #2b2a2a;
 }
 
-/*Navigation Menu*/
-#nav {
-    font-size: 1.5rem;
-    letter-spacing: 4px;
-    margin: 10px auto;
+/* Main Navbar Styling */
+/* Main Navbar Styling */
+#nav,
+.navbar-nav {
+    font-size: 1.7rem !important; /* Larger font size for nav links */
+    letter-spacing: 4px !important;
+    margin: 10px auto !important;
+    text-align: center !important;
+}
+
+#nav li,
+.navbar-nav .nav-item {
+    display: inline-block !important;
+    padding: 20px !important;
+    position: relative !important;
+}
+
+#nav a,
+.navbar-nav .nav-link {
+    text-decoration: none !important; /* Remove underline */
+    color: inherit !important; /* Ensure links inherit the default color */
+    transition: color 0.3s ease, transform 0.3s ease !important; /* Adds smooth hover effect */
+}
+
+/* Hover Effect */
+#nav a:hover,
+.navbar-nav .nav-link:hover {
+    color: #0051ff !important; /* Change text color on hover */
+    transform: scale(1.1) !important; /* Increase size slightly on hover */
+}
+
+/* Center Navbar Items */
+.navbar-nav {
+    display: flex !important;
+    justify-content: center !important; /* Center nav items horizontally */
+}
+
+
+/* Hover Effect */
+#nav a:hover {
+    color: #0051ff; /* Change text color on hover */
+    transform: scale(1.1); /* Increase size slightly on hover */
+}
+
+/* Bootstrap Overrides */
+.navbar-nav {
     text-align: center;
-    transition: color 0.3s ease, transform 0.5s ease-in-out;
+    justify-content: center; /* Center nav items horizontally */
 }
 
-#nav li {
-    display: inline-block;
-    padding: 20px;
-    position: relative;
-}
-
-#nav a {
-    text-decoration: none; /* Prevents underline */
-    
-}
-
-#nav :hover {
-    color: #0051ff;  /* Change text color on hover */
-    transform: scale(1.1); /* Increase size by 10% */
-}
 
 
 img {
@@ -81,10 +107,12 @@ h2 {
 }
 
 #logo {
+    font-family: "Josefin Sans", sans-serif;
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
     padding: 10px;
     margin: 10px;
+    text-decoration: none;
 }
 
 .active {

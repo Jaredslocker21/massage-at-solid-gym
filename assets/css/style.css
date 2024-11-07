@@ -618,7 +618,7 @@ input[type="submit"] {
     }
 
     #cover-text {
-        display: none;
+       background-color: #2b2a2a;
     }
 
     #nav {

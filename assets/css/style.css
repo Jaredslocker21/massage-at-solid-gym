@@ -19,7 +19,7 @@ a {
 /* Main Navbar Styling */
 #nav,
 .navbar-nav {
-    font-size: 1rem !important; /* Larger font size for nav links */
+    font-size: 1.3rem !important; /* Larger font size for nav links */
     letter-spacing: 4px !important;
     margin: 5px auto !important;
     text-align: center !important;
@@ -43,7 +43,7 @@ a {
 #nav a:hover,
 .navbar-nav .nav-link:hover {
     color: #0051ff !important; /* Change text color on hover */
-    transform: scale(1.1) !important; /* Increase size slightly on hover */
+    transform: scale(1.50) !important; /* Increase size slightly on hover */
     text-decoration: none;
 }
 
@@ -272,6 +272,7 @@ hr {
     margin-top: 60px;
     padding: 1%;
     color: rgb(0, 0, 0); /* White text color for contrast */
+    font-family: "Josefin Sans";
 }
 
 #treatments {

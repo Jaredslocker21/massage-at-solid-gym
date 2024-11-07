@@ -17,12 +17,11 @@ a {
 }
 
 /* Main Navbar Styling */
-/* Main Navbar Styling */
 #nav,
 .navbar-nav {
-    font-size: 1.7rem !important; /* Larger font size for nav links */
+    font-size: 1rem !important; /* Larger font size for nav links */
     letter-spacing: 4px !important;
-    margin: 10px auto !important;
+    margin: 5px auto !important;
     text-align: center !important;
 }
 
@@ -45,6 +44,7 @@ a {
 .navbar-nav .nav-link:hover {
     color: #0051ff !important; /* Change text color on hover */
     transform: scale(1.1) !important; /* Increase size slightly on hover */
+    text-decoration: none;
 }
 
 /* Center Navbar Items */
@@ -58,6 +58,7 @@ a {
 #nav a:hover {
     color: #0051ff; /* Change text color on hover */
     transform: scale(1.1); /* Increase size slightly on hover */
+    text-decoration: none !important;
 }
 
 /* Bootstrap Overrides */

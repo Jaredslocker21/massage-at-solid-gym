@@ -42,8 +42,8 @@ a {
 /* Hover Effect */
 #nav a:hover,
 .navbar-nav .nav-link:hover {
-    color: #0051ff !important; /* Change text color on hover */
-    transform: scale(1.50) !important; /* Increase size slightly on hover */
+    color: #fecb67 !important; /* Change text color on hover */
+    transform: scale(1.178) !important; /* Increase size slightly on hover */
     text-decoration: none;
 }
 

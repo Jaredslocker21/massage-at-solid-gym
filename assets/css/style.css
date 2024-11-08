@@ -175,6 +175,7 @@ hr {
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
     transition: transform 0.5s ease; /* Add transition for smooth effect */
+    
 }
 
 #additional-information {
@@ -210,6 +211,7 @@ hr {
 
 #cover-text:hover {
     opacity: 70; /* Fade out the cover text */
+    z-index: 10;
 }
 
 #cover-text:hover .additional-info {
@@ -713,3 +715,58 @@ input[type="submit"] {
         font-size: 0.9rem; /* Make the email link slightly smaller */
     }
 }
+
+/*Circle div*/
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh; /* Full viewport height for centering */
+    margin-top: 10%;
+}
+
+.circle-container-text {
+    font-size: 5vw; /* Responsive font size */
+    text-align: center;
+    color: #281f1f;
+}
+
+.circle {
+    width: 25vw;
+    height: 25vw;
+    max-width: 400px;
+    max-height: 400px;
+    background: linear-gradient(#f00202 0%, #bd0404 10%, #7d0404 50%, #4a0202 100%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #ffffff;
+    font-size: 1.5vw;
+}
+
+.circle::before {
+    content: "";
+    width: 90%;
+    height: 90%;
+    background: linear-gradient(#f06060 0%, #a30505 60%, #4d0202 100%);
+    border-radius: 50%;
+    filter: blur(5px);
+    position: absolute;
+    z-index: -1;
+}
+
+.circle::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.6);
+    bottom: -30px;
+    filter: blur(10px);
+    z-index: -2;
+}
+

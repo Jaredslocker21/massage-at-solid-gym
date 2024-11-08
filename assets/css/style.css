@@ -598,6 +598,9 @@ input[type="submit"] {
     .treatment-images {
         margin-top: 25px;
     }
+    .circle-container {
+        height: 15vh; /* Full viewport height for centering */
+    }
 }
 
 /* Media Queries for screens under 430px*/
@@ -695,6 +698,9 @@ input[type="submit"] {
     .contact-info ul li {
         font-size: 1rem; /* Slightly smaller text for readability */
     }
+    .circle-container {
+        height: 15vh; /* Full viewport height for centering */
+    }
 }
 
 @media (max-width: 480px) {
@@ -714,6 +720,9 @@ input[type="submit"] {
     .contact-info a {
         font-size: 0.9rem; /* Make the email link slightly smaller */
     }
+    .circle-container {
+        height: 15vh; /* Full viewport height for centering */
+    }
 }
 
 /*Circle div*/
@@ -723,7 +732,7 @@ input[type="submit"] {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 40vh; /* Full viewport height for centering */
+    
     margin-top: 10%;
 }
 
